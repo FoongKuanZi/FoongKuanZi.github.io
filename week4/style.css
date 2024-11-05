@@ -1,0 +1,61 @@
+button.subscribe {
+    background-color: #b90307;
+    color: white;
+    font-size: 11px;
+    border: 1px solid #b90307;
+}
+
+button.join {
+    background-color: white;
+    color: #122151;
+    font-size: 11px;
+    border: 2px solid #4e5179;
+
+}
+
+button.tweet {
+    background-color: #2086cc;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border: 0px;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sweetheart {
+    background-color: white;
+    color: #ff69b4;
+    border: 2px dotted #ff69b4;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-style {
+    border-radius: 2px;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#yippe {
+    color: white;
+    border: 2px dotted white;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#yayo {
+    font-size: large
+}
+
+.background {
+    background-image: url("images/texture.jpg");
+    background-size: cover;
+}
