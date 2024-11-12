@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 5 - Two Columns</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div.column1 {
+            background-color: lightgreen;
+            border: 0px;
+        }
+
+        div.column2 {
+            background-color: lightblue;
+            border: 0px;
+        }
+
+        div.columns {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+
+        .padding {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 2px;
+            padding-bottom: 5px;
+        }
+
+        div.flex1 {
+            flex: 1;
+        }
+
+        div.flex2 {
+            flex: 2;
+        }
+
+        .hfcolor {
+            color: white;
+            background-color: darkslateblue;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer {
+            text-align: center;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+
+        #navi {
+            display: flex;
+            padding-top: 35px;
+            padding-bottom: 20px;
+            padding-right: 10px;
+            font-size: 17px;
+        }
+
+        .logo {
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 20px;
+        }
+
+        .navibox {
+            padding-left: 10px;
+            padding-right: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hfcolor header">
+        <div>
+            <h1 class="logo">Header</h1>
+        </div>
+        <div id="navi">
+            <div class="navibox">Home</div>
+            <div class="navibox">About Us</div>
+            <div class="navibox">Information</div>
+            <div class="navibox">Contact Us</div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column1 flex1 padding" id="flex1">
+            <h3>Column 1</h3>
+            <p>This is my first column.</p>
+        </div>
+        <div class="column2 flex2 padding" id="flex2">
+            <h3>Column 2</h3>
+            <p>This is my second column.</p>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column1 flex2 padding">
+            <h3>Column 3</h3>
+            <p>This is my third column.</p>
+        </div>
+        <div class="column2 flex1 padding">
+            <h3>Column 4</h3>
+            <p>This is my fourth column.</p>
+        </div>
+    </div>
+    <div class="hfcolor footer">
+        <h4>Footer</h4>
+    </div>
+</body>
+
+</html>
