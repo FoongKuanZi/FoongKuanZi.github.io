@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 5 - Exercise 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=PT+Sans+Narrow:wght@400;700&family=Pangolin&display=swap"
+        rel="stylesheet">
+
+    <style>
+        #header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff7d8;
+        }
+
+        .logo {
+            font-family: "PT Sans Narrow";
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 9px;
+            font-size: 45px;
+        }
+
+        .navi {
+            display: flex;
+            padding-left: 35px;
+            margin-top: 32px;
+        }
+
+        .hsec {
+            display: flex;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        .navibox {
+            padding-right: 30px;
+            font-family: "Arial";
+        }
+
+        .icon {
+            margin-top: 27px;
+        }
+
+        #login {
+            margin-left: 13px;
+            margin-top: 32px;
+        }
+
+        #cart {
+            margin-top: 31px;
+            font-size: 18px;
+        }
+
+        button.order {
+            border: 0px;
+            color: white;
+            background-color: black;
+            text-align: center;
+            font-size: 17px;
+            font-family: Arial;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        div.button {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="hsec">
+            <div>
+                <h1 class="logo">BREW</h1>
+            </div>
+            <div class="navi">
+                <a href="https://www.google.com" class="navibox">Shop</a>
+                <a href="https://www.google.com" class="navibox">About</a>
+                <a href="https://www.google.com" class="navibox">Location & Hours</a>
+            </div>
+        </div>
+        <div>
+            <div class="hsec">
+                <div class="hsec">
+                    <a href="https://www.google.com"><img src="images/profile.png" alt="profile" width="25"
+                            class="icon"></a>
+                    <a href="https://www.google.com" id="login" class="navibox">Log In</a>
+                </div>
+                <div class="hsec">
+                    <a href="https://www.google.com" id="cart" class="navibox">Cart (0)</a>
+                </div>
+                <div class="button">
+                    <button class="order">Order Online</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
