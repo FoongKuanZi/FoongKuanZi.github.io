@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Week 6 - Exercise 1</title>
+    <title>Week 6 - Exercise 2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <style>
@@ -71,10 +71,21 @@
 
     .submenu-item {
         font-size: 14px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 13px;
+    }
+
+    @media screen and (max-width: 600px) {
+        #header {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        #navi {
+            text-align: center;
+        }
     }
 </style>
 

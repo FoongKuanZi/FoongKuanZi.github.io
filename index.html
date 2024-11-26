@@ -9,17 +9,121 @@
         rel="stylesheet">
     <style>
         body {
-            background-color: #fff7f8;
+            background-image: url(images/bg.png);
+            background-size: cover;
+            min-height: 100%;
+            text-align: center;
         }
 
         #header {
-            background-color: #1e1313;
+            background-color: #112e12;
+            display: flex;
+            justify-content: space-between;
         }
 
         #logo {
-            margin-top: 10px;
+            margin-top: 8px;
+            margin-bottom: 3px;
+            margin-left: 10px;
+        }
+
+        .social {
+            margin-top: 16px;
+            margin-right: 10px;
+        }
+
+        #pfp {
+            border-radius: 50%;
+            margin-top: 50px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .text {
+            font-family: "Pridi";
+            color: #112e12;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: 500;
             margin-bottom: 5px;
-            margin-left: 20px;
+        }
+
+        h3 {
+            font-size: 25px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .intro {
+            margin-top: 10px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.column {
+            background-color: RGB(255, 255, 255, 0.2);
+            flex: 1;
+            border-radius: 20px;
+        }
+
+        .week {
+            display: flex;
+        }
+
+        hr {
+            border: 1px solid #112e12;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #112e12;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #112e12;
+        }
+
+        .padding {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        div.columns {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #footer {
+            background-color: #112e12;
+        }
+
+        .media {
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-bottom: 3px;
+        }
+
+        .footertext {
+            margin-top: 3px;
+            font-family: "Pridi";
+            font-weight: 200;
+            color: #f8e4ab;
+            font-size: 15px;
+            padding-bottom: 20px;
         }
     </style>
 </head>
@@ -27,8 +131,107 @@
 <body>
     <div id="header">
         <div>
-            <img src="images/mylogo.png" alt="logo" height="50" id="logo">
+            <img src="images/mylogo.png" alt="logo" height="35" id="logo">
         </div>
+        <div>
+            <a href="https://x.com/PierreCanarie"><img src="images/twitter.png" alt="twitter" height="20"
+                    class="social"></a>
+            <a href="https://www.youtube.com/@magpierrecanarie"><img src="images/youtube.png" alt="youtube" height="20"
+                    class="social"></a>
+            <a href="https://github.com/FoongKuanZi"><img src="images/github.png" alt="github" height="20"
+                    class="social"></a>
+        </div>
+    </div>
+    <img src="images/pfp.jpg" alt="profile picture" height="200" id="pfp">
+    <div class="center">
+        <h2 class="text">Foong Kuan Zi</h2>
+        <h3 class="text">Web Publishing</h3>
+        <p class="text intro">Hallo, I'm Foong Kuan Zi! I'm an interactive media designer with a hobby of documenting
+            stray cats! Welcome to my page!</p>
+    </div>
+    <div class="columns">
+        <div class="column padding">
+            <div class="center">
+                <h3 class="text">Week 2</h3>
+            </div>
+            <hr width="50%">
+            <div>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week2/exe1.html"
+                    class="text">Exercise 1</a>
+                <br>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week2/exe2.html"
+                    class="text">Exercise 2</a>
+            </div>
+        </div>
+        <div class="column padding">
+            <div class="center">
+                <h3 class="text">Week 3</h3>
+            </div>
+            <hr width="50%">
+            <div>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week3/exe1.html"
+                    class="text">Exercise 1</a>
+                <br>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week3/exe2.html"
+                    class="text">Exercise 2</a>
+            </div>
+        </div>
+        <div class="column padding">
+            <div class="center">
+                <h3 class="text">Week 4</h3>
+            </div>
+            <hr width="50%">
+            <div>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week4/exe1.html"
+                    class="text">Exercise 1</a>
+                <br>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week4/exe2.html"
+                    class="text">Exercise 2</a>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column padding">
+            <div class="center">
+                <h3 class="text">Week 5</h3>
+            </div>
+            <hr width="50%">
+            <div>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week5/exe1.html"
+                    class="text">Exercise 1</a>
+                <br>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week5/exe2.html"
+                    class="text">Exercise 2</a>
+                <br>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week5/exe3.html"
+                    class="text">Exercise 3</a>
+            </div>
+        </div>
+        <div class="column padding">
+            <div class="center">
+                <h3 class="text">Week 6</h3>
+            </div>
+            <hr width="50%">
+            <div>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week6/exe1.html"
+                    class="text">Exercise 1</a>
+                <br>
+                <a href="https://github.com/FoongKuanZi/FoongKuanZi.github.io/blob/main/week6/exe2.html"
+                    class="text">Exercise 2</a>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="center">
+            <a href="https://x.com/PierreCanarie"><img src="images/twitter.png" alt="twitter" height="20"
+                    class="media"></a>
+            <a href="https://www.youtube.com/@magpierrecanarie"><img src="images/youtube.png" alt="youtube" height="20"
+                    class="media"></a>
+            <a href="https://github.com/FoongKuanZi"><img src="images/github.png" alt="github" height="20"
+                    class="media"></a>
+        </div>
+        <p class="footertext">©Magpierre Foong 2024, All Rights Reserved.</p>
+
     </div>
 </body>
 
