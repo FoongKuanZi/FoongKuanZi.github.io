@@ -123,3 +123,9 @@ a {
 .socmed {
     padding-top: 8px;
 }
+
+img.roundshape {
+    object-fit: contain;
+    position: relative;
+    top: 70px;
+}
