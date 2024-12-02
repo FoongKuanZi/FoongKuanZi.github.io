@@ -1,4 +1,7 @@
 header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     background-color: rgb(249, 123, 111);
@@ -127,3 +130,5 @@ div.roundshape {
     right: 40px;
     z-index: 1000;
 }
+
+@media screen and (max-width:600px) {
