@@ -55,8 +55,8 @@ a {
 
 .container {
     padding: 20px;
-    padding-left: 230px;
-    padding-right: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 40px;
     background-color: #f97b6f;
     display: flex;
@@ -118,8 +118,14 @@ img.roundshape {
 }
 
 div.roundshape {
-
     display: flex;
     background-color: #6d1f34;
 
+}
+
+.backtotop {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 1000;
 }
