@@ -6,14 +6,11 @@
 
 
 h2 {
-    color: #6d1f34;
     font-family: tangerine;
     margin: 0%;
 }
 
 p {
-    color: #6d1f34;
-    font-size: small;
     font-family: "Comfortaa", sans-serif;
     margin-top: 0%;
 }
@@ -116,13 +113,20 @@ a {
     align-items: center;
 }
 
+.subscribe:hover {
+    color: #6d1f34;
+    background-color: #ffe186;
+}
+
 .newsletter {
     display: flex;
     gap: 30px;
+    z-index: 100;
 }
 
 .promote {
     text-align: center;
+    z-index: 100;
 }
 
 .socmed {
@@ -137,6 +141,7 @@ img.roundshape {
 
 div.roundshape {
     display: flex;
+    background-color: #6d1f34;
 
 }
 
@@ -234,6 +239,7 @@ div.roundshape {
 
 .content {
     max-width: 600px;
+    color: #6d1f34;
 }
 
 img.content {
@@ -262,6 +268,8 @@ div.general {
 
 div.imagebox1 {
     background-image: url(img/catgroom.jpg);
+    background-size: cover;
+    background-position: center;
     height: 250px;
     border-radius: 10px;
 
@@ -269,6 +277,8 @@ div.imagebox1 {
 
 div.imagebox2 {
     background-image: url(img/cat\ fight.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 250px;
     border-radius: 10px;
 }
@@ -276,12 +286,16 @@ div.imagebox2 {
 
 div.imagebox3 {
     background-image: url(img/cat\ knead.jpg);
+    background-size: cover;
+    background-position: center;
     height: 250px;
     border-radius: 10px;
 }
 
 div.imagebox4 {
     background-image: url(img/coat\ colour.jpg);
+    background-size: cover;
+    background-position: center;
     height: 250px;
     border-radius: 10px;
 
@@ -289,6 +303,8 @@ div.imagebox4 {
 
 div.imagebox5 {
     background-image: url(img/cat\ on\ table.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 250px;
     border-radius: 10px;
 }
@@ -296,6 +312,8 @@ div.imagebox5 {
 
 div.imagebox6 {
     background-image: url(img/cat\ and\ tail.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 250px;
     border-radius: 10px;
 }
@@ -312,6 +330,7 @@ div.imagebox6 {
     align-items: center;
     justify-content: space-between;
     margin: 10%;
+    padding-top: 400px;
 }
 
 .cat {
@@ -320,10 +339,16 @@ div.imagebox6 {
 }
 
 .checkoutmore {
+    font-size: larger;
     color: #ffefd4;
     background-image: url(img/checkoutmore.png);
-    object-fit: cover;
+    background-size: cover;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 20px;
+}
+
+.checkheadtxt {
+    position: relative;
+    top: 360px;
 }
