@@ -109,6 +109,7 @@ button.general {
     font-size: medium;
     color: #754b0b;
     background-color: #ffe186;
+    box-shadow: #754b0b;
     border: #ffe186 1px solid;
     border-radius: 20px;
     padding-left: 28px;
