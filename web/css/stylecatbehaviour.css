@@ -113,26 +113,9 @@ img.content {
     border-radius: 10px;
 }
 
-button.general {
-    font-family: "tangerine";
-    font-size: medium;
-    color: #754b0b;
-    background-color: #ffe186;
-    border: #ffe186 1px solid;
-    border-radius: 20px;
-    padding: 7px;
-    padding-left: 28px;
-    padding-right: 28px;
-    position: relative;
-    bottom: 3px;
-    align-items: center;
-}
 
-div.general {
-    max-width: fit-content;
-    border-radius: 20px;
-    background-color: #754b0b;
-}
+
+
 
 div.imagebox1 {
     background-image: url(../img/catgroom.jpg);
@@ -186,12 +169,7 @@ div.imagebox6 {
     border-radius: 10px;
 }
 
-.general:hover {
-    background-color: #754b0b;
-    border: 1px #754b0b;
-    color: #ffe186;
-    align-items: center;
-}
+
 
 .sections {
     display: flex;
@@ -247,4 +225,6 @@ div.imagebox6 {
     .promote {
         padding-top: 50px;
     }
+
+
 }
