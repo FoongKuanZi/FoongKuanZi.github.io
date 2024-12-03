@@ -1,0 +1,145 @@
+@font-face {
+    font-family: tangerine;
+    src: url(font/tangerine.ttf)
+}
+
+h2 {
+    font-family: tangerine;
+    margin-bottom: 1%;
+}
+
+p {
+    font-family: "Comfortaa", sans-serif;
+    margin-top: 0%;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.imgbox {
+    background-image: url("../img/section1.png");
+    display: grid;
+    width: auto;
+}
+
+.centered {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.direction {
+    z-index: 1;
+    position: absolute;
+    top: 110px;
+    left: 25px;
+    display: flex;
+}
+
+.arrow {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sec:hover a {
+    text-decoration: underline 1.5px solid;
+    text-underline-offset: 3px;
+}
+
+.mainsec a {
+    text-decoration: underline 1.5px solid;
+    text-underline-offset: 3px;
+}
+
+
+.checkoutmore {
+    font-size: larger;
+    color: #ffefd4;
+    background-image: url("../img/checkoutmore.png") 1;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.checkheadtxt {
+    position: relative;
+    top: 360px;
+}
+
+body {
+    font-family: "tangerine";
+    background-color: #ffefd4;
+    margin: 0%;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20%;
+    margin: 10%;
+    padding-top: 400px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.cat {
+    text-align: center;
+    color: #ffefd4;
+}
+
+button.general {
+    font-family: "tangerine";
+    font-size: medium;
+    color: #754b0b;
+    background-color: #ffe186;
+    border: #ffe186 1px solid;
+    border-radius: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+button.general:hover {
+    color: #ffe186;
+    background-color: #754b0b;
+    border: #754b0b 1px solid;
+}
+
+.subscribecolor {
+    color: #6D1F34;
+}
+
+@media screen and (max-width:600px) {
+    .newslettercat {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .promote {
+        padding-top: 50px;
+    }
+}

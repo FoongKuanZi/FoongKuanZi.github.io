@@ -4,12 +4,8 @@
 <head>
     <title>Purrfacts - Classification</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="general.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Comfortaa:wght@300..700&family=Finger+Paint&family=Londrina+Solid:wght@100;300;400;900&family=Pixelify+Sans:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/classification.css" />
 </head>
 
 <body>
@@ -18,8 +14,11 @@
         <div class="navleft">
             <div class="logo"><img src="img/purrfacts.png" alt="purrfacts-logo" height="40"></div>
         </div>
+        <input type="checkbox" id="menu-checkbox" style="display: none;">
+        <label for="menu-checkbox" class="menu-toggle">&#9776;</label>
 
         <div class="navright">
+            <label for="menu-checkbox" class="close-btn">&times;</label>
             <div class="drop">
                 <div class="label">
                     <img src="img/petcare.png" alt="petcareicon" height="30" />
@@ -52,3 +51,96 @@
             </div>
         </div>
     </header>
+
+    <div class="imgbox"> <img src="img/section1.png">
+        <!--This is my direction list-->
+        <div class="direction">
+            <div class="sec"><a href="index.html">Home</a></div>
+            <div class="arrow"><img src="img/right.png" alt="arrow" height="18"></div>
+            <div class="mainsec"><a href="classification.html">Classification</a></div>
+        </div>
+        <div class="centered">
+
+        </div>
+
+    </div>
+
+    <!--Check out more Section (REMEMBER TO FIX BACKGROUND IMG)-->
+    <div class="checkoutmore">
+        <div class="checkheadtxt">
+            <h1>Check out more articles in these sections!</h1>
+        </div>
+        <div class="sections">
+            <div class="cat">
+                <div><img src="img/adoption2.PNG" alt="adoption" height="250"></div>
+                <div>
+                    <h2>Adoption</h2>
+                </div>
+                <div>
+                    <p>Give them a lovely home!</p>
+                </div>
+                <div class="general"><button class="general">See More</button></div>
+            </div>
+            <div class="cat">
+                <div><img src="img/care2.PNG" alt="petcare" height="250"></div>
+                <div>
+                    <h2>Pet Care</h2>
+                </div>
+                <div>
+                    <p>Know essential care needs for kitty!</p>
+                </div>
+                <div><a href="catbehaviour.html"><button class="general">See More</button></a></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<!--This is the footer section!-->
+<footer>
+    <div class="bigcontainer">
+        <div class="roundshape">
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+            <div><img class="roundshape" src="img/roundshape.png" alt="roundshape" height="130"></div>
+        </div>
+        <div class="container">
+            <div class="newsletter">
+                <div class="newslettercat"><img src="img/newsletter.png" alt="newsletter" height="150"></div>
+                <div class="content">
+                    <h2 class="subscribecolor">Subscribe to our Newsletter!</h2>
+                    <p class="subscribecolor">Only the best of the best cat news there is on the web!<br>
+                        Tips, recommendations and information galore!</p>
+                    <div class="emailbox">Your email here!
+                        <div class="subscribe">SUBSCRIBE</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="promote">
+                <div><img src="img/purrfacts.png" alt="purrfacts" height="60"></div>
+                <div class="socmed">
+                    <img src="img/facebook.png" alt="facebook" height="50">
+                    <img src="img/instagram.png" alt="instagram" height="50">
+                    <img src="img/tiktok.png" alt="tiktok" height="50">
+                    <img src="img/youtube.png" alt="instagram" height="50">
+                    <img src="img/twitter.png" alt="tiktok" height="50">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
