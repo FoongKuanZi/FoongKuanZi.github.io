@@ -97,15 +97,8 @@ body {
     margin-bottom: 1.8%;
 }
 
-.outsidebox {
-    background-color: #f97b6f;
-    border-radius: 15px;
-}
-
 .box {
-    position: relative;
-    right: 5px;
-    bottom: 5px;
+    box-shadow: #f97b6f 7px 7px;
     background-color: #ffaca4;
     border-radius: 15px;
     padding: 30px;

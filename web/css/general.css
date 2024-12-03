@@ -59,7 +59,27 @@ a {
     text-align: left;
 }
 
+button.general {
+    font-family: "tangerine";
+    font-size: medium;
+    color: #754b0b;
+    background-color: #ffe186;
+    box-shadow: 3px 4px #754b0b;
+    border: #ffe186 1px solid;
+    border-radius: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
 
+button.general:hover {
+    color: #ffe186;
+    background-color: #754b0b;
+    border: #754b0b 1px solid;
+    box-shadow: 3px 4px #ffe186;
+}
 
 
 .drop:hover .submenu {
