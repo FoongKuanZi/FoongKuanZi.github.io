@@ -186,7 +186,7 @@ div.imagebox5 {
 
 
 div.imagebox6 {
-    background-image: url(img/cat\ and\ tail.jpeg);
+    background-image: url(img/catntail.jpeg);
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -216,7 +216,7 @@ div.imagebox6 {
 .checkoutmore {
     font-size: larger;
     color: #ffefd4;
-    background-image: url(img/checkoutmore.png);
+    background-image: url(img/.checkoutmore.png);
     background-size: cover;
     background-position: center;
     text-align: center;
