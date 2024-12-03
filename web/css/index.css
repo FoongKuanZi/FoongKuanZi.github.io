@@ -1,15 +1,8 @@
 .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
-}
-
-.imgbox {
-    display: grid;
-    height: 100%;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
 
 .centered {
@@ -43,25 +36,25 @@
 }
 
 h1 {
-    font-family: tangerine;
+    font-family: "tangerine";
     margin-bottom: 1%;
     color: #6d1f34;
 }
 
 h2 {
-    font-family: tangerine;
+    font-family: "tangerine";
     margin-bottom: 1%;
     color: #6d1f34;
 }
 
 h3 {
-    font-family: tangerine;
+    font-family: "tangerine";
     margin-bottom: 5%;
     color: #6d1f34;
 }
 
 h4 {
-    font-family: tangerine;
+    font-family: "tangerine";
     text-align: center;
     margin-bottom: 1%;
     color: #6d1f34;
@@ -70,7 +63,7 @@ h4 {
 
 p {
     font-family: "Comfortaa", sans-serif;
-    margin-top: 0%;
+    margin: 5px;
     color: #6d1f34;
 }
 
@@ -96,28 +89,6 @@ body {
     align-items: center;
     padding: 5px;
     flex: 1;
-}
-
-button.general {
-    font-family: "tangerine";
-    font-size: medium;
-    color: #754b0b;
-    background-color: #ffe186;
-    border: #ffe186 1px solid;
-    border-radius: 20px;
-    padding: 7px;
-    padding-left: 28px;
-    padding-right: 28px;
-    position: relative;
-    bottom: 3px;
-    align-items: center;
-}
-
-
-div.general {
-    max-width: fit-content;
-    border-radius: 20px;
-    background-color: #754b0b;
 }
 
 .img {
