@@ -2,7 +2,7 @@
     background-image: url(../img/banner.png);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 610px;
 }
 
 .centered {
@@ -39,6 +39,7 @@ h1 {
     font-family: "tangerine";
     margin-bottom: 1%;
     color: #6d1f34;
+    font-size: 50px;
 }
 
 h2 {
@@ -105,5 +106,26 @@ body {
 
     .newslettercat {
         display: none;
+    }
+
+    .parent {
+        flex-direction: column;
+    }
+
+    .banner {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .centered {
+        font-size: small;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    }
+
+    h1 {
+        font-size: 30px;
     }
 }
