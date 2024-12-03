@@ -28,7 +28,6 @@ p {
 
 .imgbox {
     background-image: url("../img/section1.png");
-    display: grid;
     width: auto;
 }
 
@@ -104,26 +103,7 @@ body {
     color: #ffefd4;
 }
 
-button.general {
-    font-family: "tangerine";
-    font-size: medium;
-    color: #754b0b;
-    background-color: #ffe186;
-    box-shadow: #754b0b;
-    border: #ffe186 1px solid;
-    border-radius: 20px;
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-top: 8px;
-    padding-bottom: 5px;
-    cursor: pointer;
-}
 
-button.general:hover {
-    color: #ffe186;
-    background-color: #754b0b;
-    border: #754b0b 1px solid;
-}
 
 .subscribecolor {
     color: #6D1F34;
