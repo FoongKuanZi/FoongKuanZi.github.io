@@ -97,15 +97,8 @@ body {
     margin-bottom: 1.8%;
 }
 
-.outsidebox {
-    background-color: #f97b6f;
-    border-radius: 15px;
-}
-
 .box {
-    position: relative;
-    right: 5px;
-    bottom: 5px;
+    box-shadow: #f97b6f 7px 7px;
     background-color: #ffaca4;
     border-radius: 15px;
     padding: 30px;
@@ -142,7 +135,7 @@ div.general {
 }
 
 div.imagebox1 {
-    background-image: url(img/catgroom.jpg);
+    background-image: url(../img/catgroom.jpg);
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -151,7 +144,7 @@ div.imagebox1 {
 }
 
 div.imagebox2 {
-    background-image: url(img/cat\ fight.jpeg);
+    background-image: url(../img/catfight.jpeg);
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -160,7 +153,7 @@ div.imagebox2 {
 
 
 div.imagebox3 {
-    background-image: url(img/cat\ knead.jpg);
+    background-image: url(../img/catknead.jpg);
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -168,7 +161,7 @@ div.imagebox3 {
 }
 
 div.imagebox4 {
-    background-image: url(img/coat\ colour.jpg);
+    background-image: url(../img/coatcolour.jpg);
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -177,7 +170,7 @@ div.imagebox4 {
 }
 
 div.imagebox5 {
-    background-image: url(img/cat\ on\ table.jpeg);
+    background-image: url(../img/catontable.jpeg);
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -186,7 +179,7 @@ div.imagebox5 {
 
 
 div.imagebox6 {
-    background-image: url(img/catandtail.jpeg);
+    background-image: url(../img/catandtail.jpeg);
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -216,7 +209,7 @@ div.imagebox6 {
 .checkoutmore {
     font-size: larger;
     color: #ffefd4;
-    background-image: url(img/.checkoutmore.png);
+    background-image: url(../img/checkoutmore.png);
     background-size: cover;
     background-position: center;
     text-align: center;
