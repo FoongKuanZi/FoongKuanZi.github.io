@@ -1,0 +1,40 @@
+@font-face {
+    font-family: tangerine;
+    src: url(font/tangerine.ttf)
+}
+
+h2 {
+    font-family: tangerine;
+    margin-bottom: 1%;
+}
+
+p {
+    font-family: "Comfortaa", sans-serif;
+    margin-top: 0%;
+}
+
+body {
+    font-family: "tangerine";
+    background-color: #ffefd4;
+    margin: 0%;
+}
+
+.direction {
+    display: flex;
+    padding: 32px;
+}
+
+.arrow {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sec:hover a {
+    text-decoration: underline 1.5px solid;
+    text-underline-offset: 3px;
+}
+
+.mainsec a {
+    text-decoration: underline 1.5px solid;
+    text-underline-offset: 3px;
+}
