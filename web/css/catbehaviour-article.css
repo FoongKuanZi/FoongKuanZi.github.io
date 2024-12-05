@@ -5,12 +5,17 @@
 
 h2 {
     font-family: tangerine;
-    margin-bottom: 1%;
+    margin: 1%;
+    margin-left: 0%;
 }
+
+h4 {
+    margin: 1%;
+}
+
 
 p {
     font-family: "Comfortaa", sans-serif;
-    margin-top: 0%;
 }
 
 body {
@@ -37,4 +42,153 @@ body {
 .mainsec a {
     text-decoration: underline 1.5px solid;
     text-underline-offset: 3px;
+}
+
+.review {
+    text-align: center;
+    font-size: small;
+    color: #6d1f34;
+    background-color: #f3e5cc;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.review p {
+    margin: 0%;
+}
+
+.art1 {
+    margin: 3%;
+    display: flex;
+}
+
+.artimage {
+    position: relative;
+    background: url(../img/catgroom.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    min-width: 600px;
+    border-radius: 15px;
+}
+
+.intro {
+    color: #6d1f34;
+    padding-left: 30px;
+}
+
+.credit {
+    color: #6d1f34;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 70px;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.credit p {
+    margin: 0%;
+}
+
+.abox {
+    display: flex;
+    position: relative;
+}
+
+.cutepopout {
+    position: absolute;
+    right: 55px;
+    top: 35px;
+    display: flex;
+    padding: 10px;
+    gap: 11px;
+    align-items: center;
+}
+
+.box {
+    box-shadow: #f97b6f 7px 7px;
+    background-color: #ffaca4;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 2%;
+}
+
+
+.content1 {
+    color: #6d1f34;
+}
+
+.content2 {
+    color: #6d1f34;
+    max-width: 800px;
+}
+
+.bigbigcontainer {
+    display: flex;
+    gap: 30px;
+}
+
+.verybigcontainer {
+    margin: 3%;
+}
+
+.nextbigcontainer {
+    display: flex;
+}
+
+.readbox {
+    box-shadow: #f97b6f 7px 7px;
+    background-color: #ffaca4;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 300px;
+    margin: 0%;
+}
+
+.read1 {
+    background: url(../img/catputtoy.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    border-radius: 15px;
+}
+
+.read2 {
+    background: url(../img/catpawwater.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    border-radius: 15px;
+}
+
+.read3 {
+    background: url(../img/catfavperson.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    border-radius: 15px;
+}
+
+.checkoutmore {
+    font-size: larger;
+    color: #ffefd4;
+    background-image: url(../img/checkoutmore.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.checkheadtxt {
+    position: relative;
+    top: 360px;
 }
