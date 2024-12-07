@@ -3,10 +3,19 @@
     src: url(font/tangerine.ttf)
 }
 
+header {
+    z-index: 10000;
+}
+
 h2 {
+    color: #6d1f34;
     font-family: tangerine;
     margin: 1%;
     margin-left: 0%;
+}
+
+h3 {
+    color: #6d1f34;
 }
 
 h4 {
@@ -141,7 +150,29 @@ body {
 }
 
 .nextbigcontainer {
+    position: relative;
     display: flex;
+    gap: 30px;
+    margin: 3%;
+    margin-top: 0%;
+}
+
+.leftpaw {
+    position: absolute;
+    top: 150px;
+    z-index: 1000;
+}
+
+.rightpaw {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    z-index: 1000;
+}
+
+.readnext h2 {
+    margin-left: 3%;
+    padding-top: 50px;
 }
 
 .readbox {
@@ -149,32 +180,64 @@ body {
     background-color: #ffaca4;
     border-radius: 15px;
     padding: 30px;
-    max-width: 300px;
+    flex: 1;
+}
+
+.duration {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #fdefd5;
+    background-color: #6d1f34;
+    border-radius: 45px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.duration h5 {
     margin: 0%;
+    font-weight: 100;
 }
 
 .read1 {
+    position: relative;
     background: url(../img/catputtoy.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 200px;
     border-radius: 15px;
+    min-height: 300px;
 }
 
 .read2 {
+    position: relative;
     background: url(../img/catpawwater.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 200px;
     border-radius: 15px;
+    min-height: 300px;
 }
 
 .read3 {
+    position: relative;
     background: url(../img/catfavperson.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 200px;
     border-radius: 15px;
+    min-height: 300px;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+    padding-top: 400px;
+}
+
+.cat {
+    text-align: center;
+    color: #ffefd4;
 }
 
 .checkoutmore {
