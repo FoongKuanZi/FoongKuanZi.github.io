@@ -3,6 +3,11 @@
     src: url(font/tangerine.ttf)
 }
 
+h1 {
+    color: #6d1f34;
+    text-align: center;
+}
+
 h2 {
     font-family: tangerine;
     margin-bottom: 1%;
@@ -39,12 +44,14 @@ body {
     text-underline-offset: 3px;
 }
 
-.age {
-    color: #6d1f34;
-    text-align: center;
+
+#tabs {
+    font-family: tangerine;
+    background-color: #ffefd4;
 }
 
-.ageclass {
+
+ul.ageclass {
     display: flex;
     background-color: #ffbdb0;
     max-width: 380px;
@@ -166,6 +173,112 @@ div.imagebox6 {
     border-radius: 10px;
 }
 
+
+div.imagebox1-2 {
+    background-image: url(../img/catbond.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox2-2 {
+    background-image: url(../img/catlickface.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox3-2 {
+    background-image: url(../img/catbite.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+div.imagebox4-2 {
+    background-image: url(../img/catstress.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox5-2 {
+    background-image: url(../img/catsleep.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox6-2 {
+    background-image: url(../img/catndog.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+
+div.imagebox1-3 {
+    background-image: url(../img/separationenxiety.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox2-3 {
+    background-image: url(../img/catquite.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox3-3 {
+    background-image: url(../img/cathowold.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+div.imagebox4-3 {
+    background-image: url(../img/catwaystress.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox5-3 {
+    background-image: url(../img/catsignsaging.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox6-3 {
+    background-image: url(../img/catdull.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
 
 
 .sections {
