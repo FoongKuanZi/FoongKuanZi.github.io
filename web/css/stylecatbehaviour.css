@@ -18,6 +18,11 @@ p {
     margin-top: 0%;
 }
 
+.cutetext p {
+    font-family: tangerine;
+    color: #6d1f34;
+}
+
 body {
     font-family: "tangerine";
     background-color: #ffefd4;
@@ -52,41 +57,33 @@ body {
 
 
 ul.ageclass {
+    color: #6d1f34;
     display: flex;
     background-color: #ffbdb0;
-    max-width: 380px;
-    padding: 5px;
+    margin-left: 36%;
+    margin-right: 36%;
     border-radius: 40px;
+    padding: 5px;
     justify-content: space-between;
-    margin-left: 39%;
 }
 
-.mainageclass {
+li.subageclass {
     color: #ffefd4;
-    background-color: #f97b6f;
     border-radius: 35px;
-    padding: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.otherageclass:hover {
-    color: #ffefd4;
-    background-color: #f97b6f;
-    border-radius: 35px;
-    padding: 5px;
+    padding: 7px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.otherageclass {
-    color: #f97b6f;
-    background-color: #ffbdb0;
+li.subageclass:hover {
+    color: #ffefd4;
+    background-color: #f97b6f;
     border-radius: 35px;
-    padding: 5px;
+    padding: 7px;
     padding-left: 40px;
     padding-right: 40px;
 }
+
 
 .cutepopout {
     margin-left: 3%;
@@ -310,6 +307,10 @@ div.imagebox6-3 {
     top: 360px;
 }
 
+.checkheadtxt h1 {
+    color: #ffefd4;
+}
+
 
 
 @media screen and (max-width:600px) {
@@ -336,5 +337,12 @@ div.imagebox6-3 {
         padding-top: 50px;
     }
 
+    .cat {
+        padding-bottom: 110px;
+    }
 
+    ul.ageclass {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
 }

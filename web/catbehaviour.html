@@ -11,8 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <meta charset="utf-8">
 
-    <title>jQuery UI Tabs - Default functionality</title>
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+
 </head>
 
 <body>
@@ -58,7 +57,7 @@
     </header>
 
     <!--back to top button-->
-    <div class="backtotop"><img src="img/backtotop.png" alt="back to top" height="90"></div>
+    <div class="backtotop"><a href="#"><img src="img/backtotop.png" alt="back to top" height="90"></a></div>
 
     <!--This is my direction list-->
     <div class="direction">
@@ -76,18 +75,17 @@
 
     <div id="tabs">
         <ul class="ageclass">
-            <li class="mainageclass"><a href="#tabs-1">Young</a></li>
-            <li class="otherageclass"><a href="#tabs-2">Adult</a></li>
-            <li class="otherageclass"><a href="#tabs-3">Old</a></li>
+            <li class="subageclass"><a href="#tabs-1">Young</a></li>
+            <li class="subageclass"><a href="#tabs-2">Adult</a></li>
+            <li class="subageclass"><a href="#tabs-3">Older</a></li>
         </ul>
-
 
         <div id="tabs-1">
             <div class="cutepopout">
                 <div><img src="img/curly-arrow.png" alt="curly-arrow" height="30"></div>
                 <div class="cutetext">
-                    <a href="#">New to cat parenting? <br>
-                        Start here!</a>
+                    <p>New to cat parenting? <br>
+                        Start here!</p>
                 </div>
             </div>
 
@@ -101,7 +99,8 @@
                             together to
                             groom each other. One...</p>
                     </div>
-                    <div class="general"><button class="general">Read More</button></div>
+                    <div class="general"><a href="catbehaviour-ar1.html"><button class="general">Read More</button></a>
+                    </div>
                 </div>
 
                 <!--article 2-->
