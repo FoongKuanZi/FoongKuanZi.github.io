@@ -102,6 +102,12 @@ body {
 @media screen and (max-width:600px) {
     footer {
         display: flex;
+        flex-direction: column;
+    }
+
+    .promote {
+        display: flex;
+        flex-direction: column;
     }
 
     .newslettercat {

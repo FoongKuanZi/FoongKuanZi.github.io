@@ -1,0 +1,152 @@
+.background {
+    background-image: url(../img/purrfactscats.png);
+    background-size: cover;
+    background-position: center;
+    height: 561px;
+    position: relative;
+    top: 101px;
+    z-index: 1;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    margin-bottom: 0%;
+}
+
+body {
+    font-family: "tangerine";
+    background-color: #ffefd4;
+    margin: 0%;
+}
+
+.centered {
+    z-index: 2;
+    text-align: center;
+    background-color: #ffaca4;
+    width: 97%;
+    margin-top: 0px;
+    padding: 20px;
+    position: absolute;
+}
+
+.roundborder {
+    position: relative;
+    top: 100px;
+    background: url(../img/roundshapeborder.png);
+    background-size: contain;
+    height: 100px;
+    z-index: 1;
+}
+
+
+@font-face {
+    font-family: tangerine;
+    src: url(font/tangerine.ttf)
+}
+
+h1 {
+    font-family: "tangerine";
+    margin-bottom: 1%;
+    color: #6d1f34;
+    font-size: 50px;
+}
+
+/* CONTACT FORM */
+
+form {
+    position: absolute;
+    color: #6d1f34;
+    top: 50%;
+    left: 25%;
+    z-index: 3;
+    display: block;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+label {
+    padding: 12px;
+    display: inline-block;
+    text-align: right;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #ffaca4;
+    background-color: #ffaca4;
+    border-radius: 10px;
+    font-family: "Comfortaa", sans-serif;
+    text-align: left;
+    color: #6d1f34;
+}
+
+.form {
+    margin: 10px;
+    width: 100%;
+    text-align: right;
+    display: block;
+}
+
+button {
+    position: relative;
+    top: 30px;
+    margin-left: 48%;
+}
+
+.query {
+    height: 200px;
+}
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width: 600px) {
+
+    form {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .background {
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin: 0px;
+    }
+
+    .centered {
+        justify-content: center;
+        width: 91%;
+        max-width: 600px;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    button {
+        margin-left: 35%;
+        margin-top: 50px;
+    }
+
+    .query {
+        height: 50px;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+    }
+}
