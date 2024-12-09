@@ -65,42 +65,10 @@ p {
 }
 
 
-.checkoutmore {
-    font-size: larger;
-    color: #ffefd4;
-    background-image: url("../img/checkoutmoretop.png");
-    width: 100%;
-    background-size: cover;
-    text-align: center;
-    margin-top: 80px;
-    padding: 20px;
-}
-
-.checkheadtxt {
-    position: relative;
-    top: 360px;
-}
-
 body {
     font-family: "tangerine";
     background-color: #ffefd4;
     margin: 0%;
-}
-
-.sections {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 20%;
-    margin: 10%;
-    padding-top: 400px;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
-.cat {
-    text-align: center;
-    color: #ffefd4;
 }
 
 
@@ -112,12 +80,6 @@ body {
 @media screen and (max-width:600px) {
     .newslettercat {
         display: none;
-    }
-
-    .container {
-        flex-direction: column;
-        padding: 20px;
-        text-align: center;
     }
 
     .promote {
