@@ -126,8 +126,7 @@ button.general:hover {
 
 .checkheadtxt {
     position: relative;
-    margin-top: 50px;
-    margin-bottom: -80px;
+    margin-bottom: 130px;
 }
 
 .sections {
@@ -135,9 +134,9 @@ button.general:hover {
     align-items: center;
     justify-content: center;
     column-gap: 20%;
-    margin-top: 10px;
     padding-right: 50px;
     padding-left: 50px;
+    padding-bottom: 150px;
 }
 
 .cat {
