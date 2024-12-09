@@ -1,0 +1,348 @@
+@font-face {
+    font-family: tangerine;
+    src: url(font/tangerine.ttf)
+}
+
+h1 {
+    color: #6d1f34;
+    text-align: center;
+}
+
+h2 {
+    font-family: tangerine;
+    margin-bottom: 1%;
+}
+
+p {
+    font-family: "Comfortaa", sans-serif;
+    margin-top: 0%;
+}
+
+.cutetext p {
+    font-family: tangerine;
+    color: #6d1f34;
+}
+
+body {
+    font-family: "tangerine";
+    background-color: #ffefd4;
+    margin: 0%;
+}
+
+.direction {
+    display: flex;
+    padding: 32px;
+}
+
+.arrow {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sec:hover a {
+    text-decoration: underline 1.5px solid;
+    text-underline-offset: 3px;
+}
+
+.mainsec a {
+    text-decoration: underline 1.5px solid;
+    text-underline-offset: 3px;
+}
+
+
+#tabs {
+    font-family: tangerine;
+    background-color: #ffefd4;
+}
+
+
+ul.ageclass {
+    color: #6d1f34;
+    display: flex;
+    background-color: #ffbdb0;
+    margin-left: 36%;
+    margin-right: 36%;
+    border-radius: 40px;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+li.subageclass {
+    color: #ffefd4;
+    border-radius: 35px;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+li.subageclass:hover {
+    color: #ffefd4;
+    background-color: #f97b6f;
+    border-radius: 35px;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.cutepopout {
+    margin-left: 3%;
+    display: flex;
+    padding: 10px;
+    gap: 11px;
+    align-items: center;
+}
+
+.bigbigcontainer {
+    display: flex;
+    gap: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1.8%;
+}
+
+.box {
+    box-shadow: #f97b6f 7px 7px;
+    background-color: #ffaca4;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.content {
+    max-width: 600px;
+    color: #6d1f34;
+}
+
+img.content {
+    border-radius: 10px;
+}
+
+
+div.imagebox1 {
+    background-image: url(../img/catnpill.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox2 {
+    background-image: url(../img/catfleas.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox3 {
+    background-image: url(../img/firstaidcat.webp);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+div.imagebox4 {
+    background-image: url(../img/catpanting.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox5 {
+    background-image: url(../img/catsunflower.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox6 {
+    background-image: url(../img/catcone.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox1-2 {
+    background-image: url(../img/catbond.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox2-2 {
+    background-image: url(../img/catlickface.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox3-2 {
+    background-image: url(../img/catbite.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+div.imagebox4-2 {
+    background-image: url(../img/catstress.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox5-2 {
+    background-image: url(../img/catsleep.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox6-2 {
+    background-image: url(../img/catndog.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+
+div.imagebox1-3 {
+    background-image: url(../img/separationenxiety.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox2-3 {
+    background-image: url(../img/catquite.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox3-3 {
+    background-image: url(../img/cathowold.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+div.imagebox4-3 {
+    background-image: url(../img/catwaystress.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+div.imagebox5-3 {
+    background-image: url(../img/catsignsaging.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+div.imagebox6-3 {
+    background-image: url(../img/catdull.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+    padding-top: 400px;
+}
+
+.cat {
+    text-align: center;
+    color: #ffefd4;
+}
+
+.checkoutmore {
+    font-size: larger;
+    color: #ffefd4;
+    background-image: url(../img/checkoutmore.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.checkheadtxt {
+    position: relative;
+    top: 360px;
+}
+
+.checkheadtxt h1 {
+    color: #ffefd4;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .bigbigcontainer {
+        flex-direction: column;
+        padding-top: 13px;
+    }
+
+    .sections {
+        flex-direction: column;
+    }
+
+    .newslettercat {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .promote {
+        padding-top: 50px;
+    }
+
+    .cat {
+        padding-bottom: 110px;
+    }
+
+    ul.ageclass {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
