@@ -73,6 +73,20 @@ body {
     margin: 0%;
 }
 
+.backgrounddeco {
+    background-color: #ffaca4;
+    margin-bottom: 15%;
+}
+
+.roundborder {
+    position: relative;
+    top: 50px;
+    background: url(../img/roundshapeborder.png);
+    background-size: contain;
+    height: 100px;
+
+}
+
 .art1 {
     margin: 3%;
     display: flex;
@@ -94,6 +108,7 @@ body {
 }
 
 .credit {
+    margin-left: 40%;
     color: #6d1f34;
     text-align: center;
     border: solid 1px;
@@ -156,6 +171,10 @@ body {
     gap: 30px;
     margin: 3%;
     margin-top: 0%;
+}
+
+.slide {
+    display: flex;
 }
 
 .leftpaw {
@@ -228,6 +247,33 @@ body {
     min-height: 300px;
 }
 
+.read4 {
+    position: relative;
+    background: url(../img/catfight.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.read5 {
+    position: relative;
+    background: url(../img/catknead.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.read6 {
+    position: relative;
+    background: url(../img/catbond.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
 .sections {
     display: flex;
     align-items: center;
@@ -272,9 +318,6 @@ body {
         flex-direction: column;
     }
 
-    .cutepopout {
-        display: none;
-    }
 
     .newslettercat {
         display: none;
@@ -297,5 +340,15 @@ body {
     .intro {
         padding-top: 30px;
         padding-left: 0px;
+    }
+
+    .credit {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .cutepopout {
+        display: none;
     }
 }

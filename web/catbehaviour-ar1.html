@@ -54,44 +54,50 @@
         </div>
     </header>
 
-    <!--back to top button-->
-    <div class="backtotop"><a href="#"><img src="img/backtotop.png" alt="back to top" height="90"></a></div>
+    <div class="backgrounddeco">
+        <!--back to top button-->
+        <div class="backtotop"><a href="#"><img src="img/backtotop.png" alt="back to top" height="90"></a></div>
 
-    <!--This is my direction list-->
-    <div class="direction">
-        <div class="sec"><a href="index.html">Home</a></div>
-        <div class="arrow"><img src="img/right.png" alt="arrow" height="18"></div>
-        <div class="sec"><a href="#">Pet Care</a></div>
-        <div class="arrow"><img src="img/right.png" alt="arrow" height="18"></div>
-        <div class="sec"><a href="catbehaviour.html">Behaviour</a></div>
-        <div class="arrow"><img src="img/right.png" alt="arrow" height="18"></div>
-        <div class="mainsec"><a href="#">Why do...</a></div>
-    </div>
+        <!--This is my direction list-->
+        <div class="direction">
+            <div class="sec"><a href="index.html">Home</a></div>
+            <div class="arrow"><img src="img/right.png" alt="arrow" height="18"></div>
+            <div class="sec"><a href="#">Pet Care</a></div>
+            <div class="arrow"><img src="img/right.png" alt="arrow" height="18"></div>
+            <div class="sec"><a href="catbehaviour.html">Behaviour</a></div>
+            <div class="arrow"><img src="img/right.png" alt="arrow" height="18"></div>
+            <div class="mainsec"><a href="#">Why do...</a></div>
+        </div>
 
-    <!--This is my article 1 description-->
-    <div class="art1">
-        <div class="artimage">
-            <div class="review">
-                <h4>Reviewed & Fact Checked by</h4>
-                <p>Dr. Meow Meow <br> Prof. Pet Studies (Veterinarian)</p>
+        <!--This is my article 1 description-->
+
+        <div class="art1">
+            <div class="artimage">
+                <div class="review">
+                    <h4>Reviewed & Fact Checked by</h4>
+                    <p>Dr. Meow Meow <br> Prof. Pet Studies (Veterinarian)</p>
+                </div>
+            </div>
+
+
+
+            <div class="intro">
+                <h2>Why do cats groom each other?</h2>
+                <p>You've seen it countless times—your cats, usually content in their separate corners, come together to
+                    groom each other. One reaches out a paw, brushing it softly over the other's fur, before they engage
+                    in
+                    a mutual, gentle grooming session. </p>
+                <p> A comforting sight, isn't it? But have you ever paused to wonder
+                    why they engage in this behaviour?
+                    Why do creatures known for their independent nature share such a personal moment?</p>
+                <p>Why do cats groom
+                    each other?" is an excellent question that has more than one possible answer. We went on a research
+                    adventure, seeking actual scientific studies that looked into the question.</p>
             </div>
         </div>
-
-
-
-        <div class="intro">
-            <h2>Why do cats groom each other?</h2>
-            <p>You've seen it countless times—your cats, usually content in their separate corners, come together to
-                groom each other. One reaches out a paw, brushing it softly over the other's fur, before they engage in
-                a mutual, gentle grooming session. </p>
-            <p> A comforting sight, isn't it? But have you ever paused to wonder
-                why they engage in this behaviour?
-                Why do creatures known for their independent nature share such a personal moment?</p>
-            <p>Why do cats groom
-                each other?" is an excellent question that has more than one possible answer. We went on a research
-                adventure, seeking actual scientific studies that looked into the question.</p>
-        </div>
+        <div class="roundborder"></div>
     </div>
+
 
 
     <!--This is the credit to writer-->
@@ -197,7 +203,7 @@
 
     <div class="nextbigcontainer">
         <!--This is left paw-->
-        <div class="leftpaw"><img src="img/leftbutton.png" alt="left paw" height="90"></div>
+        <!--<div class="leftpaw"><img src="img/leftbutton.png" alt="left paw" height="90"></div>-->
 
         <div class="readbox">
             <div class="read1">
@@ -229,8 +235,40 @@
             <div class="general"><button class="general">Read More</button></div>
         </div>
 
+
+        <div class="readbox">
+            <div class="read4">
+                <div class="duration">
+                    <h5>5 mins read</h5>
+                </div>
+            </div>
+            <h3>How to safely break up a cat fight?</h3>
+            <div class="general"><button class="general">Read More</button></div>
+        </div>
+
+        <div class="readbox">
+            <div class="read5">
+                <div class="duration">
+                    <h5>6 mins read</h5>
+                </div>
+            </div>
+            <h3>Why do cats knead?</h3>
+            <div class="general"><button class="general">Read More</button></div>
+        </div>
+
+        <div class="readbox">
+            <div class="read6">
+                <div class="duration">
+                    <h5>8 mins read</h5>
+                </div>
+            </div>
+            <h3>Are your cats bonded?</h3>
+            <div class="general"><button class="general">Read More</button></div>
+        </div>
+
+
         <!--This is right paw-->
-        <div class="rightpaw"><img src="img/rightbutton.png" alt="right paw" height="90"></div>
+        <!--<div class="rightpaw"><img src="img/rightbutton.png" alt="right paw" height="90"></div>-->
     </div>
 
 
@@ -274,6 +312,19 @@
             </div>
         </div>
     </div>
+
+    <!-- Scripts below must be located by the end of /body -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.nextbigcontainer').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+        });
+    </script>
 
 </body>
 
