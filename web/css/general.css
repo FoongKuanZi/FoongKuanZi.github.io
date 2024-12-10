@@ -159,6 +159,11 @@ button.general:hover {
     box-shadow: 3px 4px #ffe186;
 }
 
+.bigbody {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
 
 /* This is for the title-directions.*/
 .direction {
