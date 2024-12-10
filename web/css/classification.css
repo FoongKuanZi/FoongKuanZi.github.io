@@ -26,22 +26,6 @@
 }
 
 
-
-
-.direction {
-    z-index: 1;
-    position: absolute;
-    top: 110px;
-    left: 25px;
-    display: flex;
-    background-color: #FFACA4;
-}
-
-.arrow {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .sec:hover a {
     text-decoration: underline 1.5px solid;
     text-underline-offset: 3px;
@@ -50,19 +34,6 @@
 .mainsec a {
     text-decoration: underline 1.5px solid;
     text-underline-offset: 3px;
-}
-
-
-body {
-    font-family: "tangerine";
-    background-color: #ffefd4;
-    margin: 0%;
-}
-
-
-
-.subscribecolor {
-    color: #6D1F34;
 }
 
 @media screen and (max-width:600px) {

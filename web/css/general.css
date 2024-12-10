@@ -1,3 +1,7 @@
+html {
+    height: 100vh;
+}
+
 /* This is for the header section. */
 header {
     position: sticky;
@@ -83,18 +87,49 @@ header {
 /* This is for general CSS-styles. */
 @font-face {
     font-family: tangerine;
-    src: url(font/tangerine.ttf)
+    src: url(tangerine.ttf)
+}
+
+h1 {
+    font-family: "tangerine";
+    margin-bottom: 1%;
+    color: #6d1f34;
+    font-size: 50px;
 }
 
 h2 {
-    font-family: tangerine;
+    font-family: "tangerine";
     margin-bottom: 1%;
+    color: #6d1f34;
+}
+
+h3 {
+    font-family: "tangerine";
+    margin-bottom: 5%;
+    color: #6d1f34;
+}
+
+h4 {
+    font-family: "tangerine";
+    text-align: center;
+    margin-bottom: 1%;
+    color: #6d1f34;
+    font-size: large;
 }
 
 p {
     font-family: "Comfortaa", sans-serif;
-    margin-top: 0%;
+    margin: 5px;
+    color: #6d1f34;
 }
+
+
+body {
+    font-family: "tangerine";
+    background-color: #ffefd4;
+    margin: 0%;
+}
+
 
 a {
     color: #6d1f34;
@@ -123,6 +158,20 @@ button.general:hover {
     box-shadow: 3px 4px #ffe186;
 }
 
+
+/* This is for the title-directions.*/
+.direction {
+    z-index: 1;
+    position: absolute;
+    top: 110px;
+    left: 25px;
+    display: flex;
+}
+
+.arrow {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* This is the Check-Out-More section. */
 .checkouttop {
@@ -205,6 +254,10 @@ footer {
     justify-content: space-between;
 }
 
+.subscribecolor {
+    color: #6D1F34;
+}
+
 .subscribe {
     font-family: "tangerine";
     font-size: medium;
@@ -269,6 +322,7 @@ footer {
     }
 
     .drop {
+        display: flex;
         align-items: center;
     }
 
