@@ -81,6 +81,21 @@ header {
 
 
 /* This is for general CSS-styles. */
+@font-face {
+    font-family: tangerine;
+    src: url(font/tangerine.ttf)
+}
+
+h2 {
+    font-family: tangerine;
+    margin-bottom: 1%;
+}
+
+p {
+    font-family: "Comfortaa", sans-serif;
+    margin-top: 0%;
+}
+
 a {
     color: #6d1f34;
     text-decoration: none;
