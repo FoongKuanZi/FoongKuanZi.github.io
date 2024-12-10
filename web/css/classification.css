@@ -26,19 +26,21 @@ p {
 
 }
 
-.imgbox {
-    background-image: url("../img/section1.png");
-    width: auto;
+.pinksec1 {
+    background-color: #FFACA4;
+    background-size: cover;
 }
 
-.centered {
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.roundborder {
+    position: relative;
+    top: 50px;
+    background: url(../img/roundshapeborder.png);
+    background-size: contain;
+    height: 100px;
+
 }
+
+
 
 
 .direction {
@@ -47,6 +49,7 @@ p {
     top: 110px;
     left: 25px;
     display: flex;
+    background-color: #FFACA4;
 }
 
 .arrow {
