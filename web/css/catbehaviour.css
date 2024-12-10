@@ -1,8 +1,3 @@
-.catage h1 {
-    padding-top: 90px;
-    text-align: center;
-}
-
 .cutetext p {
     font-family: tangerine;
     color: #6d1f34;
@@ -39,7 +34,6 @@ body {
     font-family: tangerine;
     background-color: #ffefd4;
 }
-
 
 li {
     list-style: none;

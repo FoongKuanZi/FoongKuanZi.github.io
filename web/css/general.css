@@ -91,6 +91,7 @@ header {
 }
 
 h1 {
+    text-align: center;
     font-family: "tangerine";
     margin-bottom: 1%;
     color: #6d1f34;
@@ -162,9 +163,6 @@ button.general:hover {
 /* This is for the title-directions.*/
 .direction {
     z-index: 1;
-    position: absolute;
-    top: 110px;
-    left: 25px;
     display: flex;
 }
 
@@ -208,12 +206,20 @@ button.general:hover {
     color: #ffefd4;
 }
 
-
-/* This is for the footer section. */
 .checkheadtxt h1 {
     color: #ffefd4;
 }
 
+.checkoutmore h2 {
+    color: #ffefd4;
+}
+
+.checkoutmore p {
+    color: #ffefd4;
+}
+
+
+/* This is for the footer section. */
 footer {
     align-items: center;
 }
