@@ -311,6 +311,23 @@ div.imagebox6-3 {
     color: #ffefd4;
 }
 
+.bigcontainer {
+    padding: 30px;
+    background-color: #f97b6f;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.roundshape {
+    position: relative;
+    bottom: 90px;
+    background: url(../img/roundshape.png);
+    background-size: contain;
+    height: 100px;
+}
 
 @media screen and (max-width:600px) {
     .bigbigcontainer {
