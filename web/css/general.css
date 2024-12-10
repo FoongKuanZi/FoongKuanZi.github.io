@@ -61,7 +61,7 @@ header {
 }
 
 
-/* This is for header phone-view version. - Fix This Later Kayo*/
+/* This is for header phone-view version.*/
 .menu-toggle {
     display: none;
     font-size: 30px;
@@ -233,6 +233,8 @@ footer {
 
 /* This is the media-responsive section. */
 @media screen and (max-width:600px) {
+
+    /*Mobile Header*/
     .navright {
         flex-direction: column;
         display: none;
@@ -243,17 +245,16 @@ footer {
         height: 60%;
         background-color: #F97B6F;
         justify-content: center;
-        align-items: center;
         z-index: 1000;
-        padding-top: 60px;
-    }
-
-    .label {
-        align-items: center;
+        padding-top: 8%;
     }
 
     .labelimg {
         display: none;
+    }
+
+    .drop {
+        align-items: center;
     }
 
     .drop>a {
@@ -279,18 +280,15 @@ footer {
 
     .hover {
         background-color: rgba(250, 227, 225, 0);
-        padding: 15px;
     }
 
     .hover:hover {
         background-color: rgba(250, 227, 225, 0);
     }
 
-    h1.checkout {
-        font-size: 40px;
-    }
-
+    /* For the bottom section of the page. */
     .checkheadtxt {
+        margin-top: 50px;
         margin-bottom: 80px;
     }
 
