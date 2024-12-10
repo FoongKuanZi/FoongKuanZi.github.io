@@ -261,12 +261,6 @@ div.imagebox6-3 {
     border-radius: 10px;
 }
 
-
-
-.bigcontainer {
-    position: relative;
-}
-
 .container {
     padding: 20px;
     background-color: #f97b6f;
@@ -274,12 +268,14 @@ div.imagebox6-3 {
     justify-content: space-between;
 }
 
-.roundshape {
-    position: absolute;
-    background: url(../img/footercircles.png);
+.roundborderfooter {
+    position: relative;
+    top: 50px;
+    background: url(../img/roundshape.png);
     background-size: contain;
     height: 100px;
 }
+
 
 @media screen and (max-width:600px) {
     .bigbigcontainer {
