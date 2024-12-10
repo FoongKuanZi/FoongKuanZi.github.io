@@ -17,16 +17,17 @@
 <body>
     <!--This is the navigation bar-->
     <header>
-        <div class="navleft">
-            <div class="logo"><a href="index.html"><img src="img/purrfacts.png" alt="purrfacts-logo" height="40"></a>
-            </div>
+        <div>
+            <div class="logo"><img src="img/purrfacts.png" alt="purrfacts-logo" height="40"></div>
         </div>
-
+        <input type="checkbox" id="menu-checkbox" style="display: none;">
+        <label for="menu-checkbox" class="menu-toggle">&#9776;</label>
         <div class="navright">
+            <label for="menu-checkbox" class="close-btn">&times;</label>
             <div class="drop">
                 <div class="label">
-                    <img src="img/petcare.png" alt="petcareicon" height="30" />
-                    <a href="#">Pet Care</a>
+                    <img src="img/petcare.png" alt="petcareicon" height="30" class="labelimg" />
+                    <a href="petcare.html">Pet Care</a>
                 </div>
                 <div class="submenu">
                     <div class="hover"><a href="catbehaviour.html">Cat Behaviour</a></div>
@@ -36,22 +37,22 @@
 
             <div class="drop">
                 <div class="label">
-                    <img src="img/classification.png" alt="classicon" height="27" />
+                    <img src="img/classification.png" alt="classicon" height="27" class="labelimg" />
                     <a href="classification.html">Classification</a>
                 </div>
                 <div class="submenu">
-                    <div class="hover"><a href="#">Cat Breeds</a></div>
-                    <div class="hover"><a href="#">Miscellaneous</a></div>
+                    <div class="hover"><a href="catbreeds.html">Cat Breeds</a></div>
+                    <div class="hover"><a href="misc.html">Miscellaneous</a></div>
                 </div>
             </div>
 
             <div class="label">
-                <img src="img/adoption.png" alt="adoption" height="30" />
-                <a href="#">Adoption</a>
+                <img src="img/adoption.png" alt="adoption" height="30" class="labelimg" />
+                <a href="adoption.html">Adoption</a>
             </div>
             <div class="label">
-                <img src="img/contactus.png" alt="contactus" height="27" />
-                <a href="#">Contact Us</a>
+                <img src="img/contactus.png" alt="contactus" height="27" class="labelimg" />
+                <a href="contact.html">Contact Us</a>
             </div>
         </div>
     </header>
