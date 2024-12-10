@@ -278,53 +278,21 @@ div.imagebox6-3 {
 }
 
 
-.sections {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10%;
-    padding-top: 400px;
-}
-
-.cat {
-    text-align: center;
-    color: #ffefd4;
-}
-
-.checkoutmore {
-    font-size: larger;
-    color: #ffefd4;
-    background-image: url(../img/checkoutmore.png);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    margin-top: 80px;
-    padding: 20px;
-}
-
-.checkheadtxt {
-    position: relative;
-    top: 360px;
-}
-
-.checkheadtxt h1 {
-    color: #ffefd4;
-}
 
 .bigcontainer {
-    padding: 30px;
-    background-color: #f97b6f;
+    position: relative;
 }
 
 .container {
+    padding: 20px;
+    background-color: #f97b6f;
     display: flex;
     justify-content: space-between;
 }
 
 .roundshape {
-    position: relative;
-    bottom: 90px;
-    background: url(../img/roundshape.png);
+    position: absolute;
+    background: url(../img/footercircles.png);
     background-size: contain;
     height: 100px;
 }
