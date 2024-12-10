@@ -214,25 +214,24 @@ footer {
     align-items: center;
 }
 
-.footerborder {
-    margin-bottom: -25px;
+.roundborderfooter {
+    position: relative;
+    top: 50px;
+    background: url(../img/roundshape.png);
+    background-size: contain;
+    height: 100px;
 }
 
-.footercontent {
-    display: flex;
-
-    justify-content: space-between;
-}
-
-.leftfooter {
-    padding-top: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 60px;
+.container {
+    padding: 20px;
     background-color: #f97b6f;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+}
+
+.content {
+    max-width: 600px;
+    color: #6d1f34;
 }
 
 .emailform {
@@ -252,10 +251,6 @@ footer {
     font-size: small;
     align-items: center;
     justify-content: space-between;
-}
-
-.subscribecolor {
-    color: #6D1F34;
 }
 
 .subscribe {
@@ -298,6 +293,7 @@ footer {
     right: 40px;
     z-index: 1000;
 }
+
 
 /* This is the media-responsive section. */
 @media screen and (max-width:600px) {
