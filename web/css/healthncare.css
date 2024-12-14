@@ -60,11 +60,12 @@ ul.ageclass {
     color: #6d1f34;
     display: flex;
     background-color: #ffbdb0;
-    margin-left: 36%;
-    margin-right: 36%;
+    max-width: 430px;
     border-radius: 40px;
     padding: 5px;
     justify-content: space-between;
+    margin: auto;
+    margin-bottom: 3%;
 }
 
 li.subageclass {
@@ -308,10 +309,5 @@ div.imagebox6-3 {
 
     .cat {
         padding-bottom: 110px;
-    }
-
-    ul.ageclass {
-        margin-left: 8%;
-        margin-right: 8%;
     }
 }

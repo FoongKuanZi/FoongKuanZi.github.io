@@ -37,6 +37,7 @@ ul.ageclass {
     padding: 5px;
     justify-content: space-between;
     margin: auto;
+    margin-bottom: 3%;
 }
 
 li.subageclass {
