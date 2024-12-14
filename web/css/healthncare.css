@@ -283,7 +283,7 @@ div.imagebox6-3 {
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .bigbigcontainer {
         flex-direction: column;
         padding-top: 13px;
