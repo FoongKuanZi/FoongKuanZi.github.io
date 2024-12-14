@@ -1,9 +1,3 @@
-@font-face {
-    font-family: tangerine;
-    src: url(font/tangerine.ttf)
-}
-
-
 header {
     z-index: 10000;
 }
@@ -180,13 +174,13 @@ body {
 
 .leftpaw {
     position: absolute;
-    top: 150px;
+    top: 2210px;
     z-index: 1000;
 }
 
 .rightpaw {
     position: absolute;
-    top: 150px;
+    top: 2210px;
     right: 0px;
     z-index: 1000;
 }
