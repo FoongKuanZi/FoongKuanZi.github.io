@@ -2,56 +2,18 @@ header {
     z-index: 10000;
 }
 
-h2 {
-    color: #6d1f34;
-    font-family: tangerine;
-    margin: 1%;
-    margin-left: 0%;
-}
-
-h3 {
-    color: #6d1f34;
+.intro h1 {
+    text-align: left;
+    margin: 0%;
 }
 
 h4 {
     margin: 1%;
 }
 
-
-p {
-    font-family: "Comfortaa", sans-serif;
-}
-
-body {
-    font-family: "tangerine";
-    background-color: #ffefd4;
-    margin: 0%;
-}
-
-.direction {
-    display: flex;
-    padding: 32px;
-}
-
-.arrow {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.sec:hover a {
-    text-decoration: underline 1.5px solid;
-    text-underline-offset: 3px;
-}
-
-.mainsec a {
-    text-decoration: underline 1.5px solid;
-    text-underline-offset: 3px;
-}
-
 .review {
     text-align: center;
     font-size: small;
-    color: #6d1f34;
     background-color: #ffefd4;
     position: absolute;
     top: 20px;
@@ -83,7 +45,6 @@ body {
 
 .art1 {
     margin: 3%;
-
     display: flex;
 }
 
@@ -98,12 +59,11 @@ body {
 }
 
 .intro {
-    color: #6d1f34;
     padding-left: 30px;
 }
 
 .credit {
-    margin-left: 40%;
+    margin: auto;
     color: #6d1f34;
     text-align: center;
     border: solid 1px;
@@ -185,7 +145,8 @@ body {
     z-index: 1000;
 }
 
-.readnext h2 {
+.readnext h1 {
+    text-align: left;
     margin-left: 3%;
     padding-top: 50px;
 }
@@ -270,7 +231,7 @@ body {
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
 
     .bigbigcontainer {
         flex-direction: column;
@@ -309,12 +270,6 @@ body {
         padding-left: 0px;
     }
 
-    .credit {
-        margin-left: 20%;
-    }
-}
-
-@media screen and (max-width:900px) {
     .cutepopout {
         display: none;
     }

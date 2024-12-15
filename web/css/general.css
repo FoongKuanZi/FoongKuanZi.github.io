@@ -169,11 +169,22 @@ button.general:hover {
 .direction {
     z-index: 1;
     display: flex;
+    padding: 32px;
 }
 
 .arrow {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.sec:hover a {
+    text-decoration: underline 1.5px solid;
+    text-underline-offset: 3px;
+}
+
+.mainsec a {
+    text-decoration: underline 1.5px solid;
+    text-underline-offset: 3px;
 }
 
 /* This is the Check-Out-More section. */
