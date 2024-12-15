@@ -7,6 +7,15 @@ header {
     margin: 0%;
 }
 
+p {
+    margin-bottom: 2%;
+    margin-left: 0%;
+}
+
+h2 {
+    margin-top: 1%;
+}
+
 h4 {
     margin: 1%;
 }

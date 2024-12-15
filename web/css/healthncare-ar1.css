@@ -7,6 +7,15 @@ header {
     margin: 0%;
 }
 
+p {
+    margin-bottom: 2%;
+    margin-left: 0%;
+}
+
+h2 {
+    margin-top: 1%;
+}
+
 h4 {
     margin: 1%;
 }
@@ -50,7 +59,7 @@ h4 {
 
 .artimage {
     position: relative;
-    background: url(../img/catgroom.jpg);
+    background: url(../img/catnpill.jpeg);
     background-size: cover;
     background-position: center;
     min-height: 400px;
@@ -178,7 +187,7 @@ h4 {
 
 .read1 {
     position: relative;
-    background: url(../img/catputtoy.jpg);
+    background: url(../img/catconstipation.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -187,7 +196,7 @@ h4 {
 
 .read2 {
     position: relative;
-    background: url(../img/catpawwater.jpg);
+    background: url(../img/catspay.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -196,7 +205,7 @@ h4 {
 
 .read3 {
     position: relative;
-    background: url(../img/catfavperson.jpg);
+    background: url(../img/cattail.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -205,7 +214,7 @@ h4 {
 
 .read4 {
     position: relative;
-    background: url(../img/catfight.jpeg);
+    background: url(../img/catpregnancy.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -214,7 +223,7 @@ h4 {
 
 .read5 {
     position: relative;
-    background: url(../img/catknead.jpg);
+    background: url(../img/earmites.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -223,7 +232,7 @@ h4 {
 
 .read6 {
     position: relative;
-    background: url(../img/catbond.jpg);
+    background: url(../img/catringworm.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
