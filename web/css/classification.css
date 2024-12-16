@@ -76,7 +76,7 @@ h1.bigtext {
 .bodypic {
     margin-top: 7%;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 }
 
 .bodymaintext {
@@ -85,7 +85,7 @@ h1.bigtext {
 }
 
 .paw {
-    padding-top: 36px;
+    padding-top: 8px;
     padding-right: 10px;
     height: 50px;
 }
@@ -141,16 +141,22 @@ h1.bigtext {
 
 .recpic {
     height: 30vh;
-
     width: auto;
     border-radius: 20px;
 }
 
 button.general {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
-@media screen and (max-width:800px) {
+h1.midtext {
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 3px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:1000px) {
     .title {
         flex-direction: column;
         align-items: center;
@@ -179,6 +185,10 @@ button.general {
         text-align: center;
     }
 
+    h1.midtext {
+        font-size: 40px;
+    }
+
     .smalltitle {
         display: flex;
         flex-direction: column;
@@ -197,6 +207,7 @@ button.general {
         display: block;
         flex-direction: column;
         align-items: center;
+        margin-top: -10px;
     }
 
     .textcombo {
@@ -228,6 +239,7 @@ button.general {
     .recblock {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .rectext {
