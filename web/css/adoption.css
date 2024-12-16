@@ -1,0 +1,118 @@
+.title {
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.column {
+    margin: 10px;
+    border-radius: 20px;
+    align-items: center;
+    flex: 1;
+    border: #6d1f34 solid 2px;
+}
+
+.desc {
+    background-color: #f97b6f;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: solid 0px;
+    border-radius: 20px;
+}
+
+.cat1 {
+    background-image: url(../img/obi.jpg);
+    background-color: #ffefd4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: solid 0px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.cat2 {
+    background-image: url(../img/cherry.jpg);
+    background-color: #ffefd4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: solid 0px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.cat3 {
+    background-image: url(../img/willow.jpg);
+    background-color: #ffefd4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: solid 0px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.cat4 {
+    background-image: url(../img/cornbread.jpg);
+    background-color: #ffefd4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: solid 0px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.cat5 {
+    background-image: url(../img/blackball.jpg);
+    background-color: #ffefd4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: solid 0px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.cat6 {
+    background-image: url(../img/cookie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: solid 0px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+/* mobile view */
+
+@media screen and (max-width:600px) {
+    .parent {
+        flex-direction: column;
+    }
+}
