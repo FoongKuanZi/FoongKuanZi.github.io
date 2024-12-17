@@ -416,6 +416,10 @@ footer {
     .checkheadtxt h1 {
         font-size: 35px;
     }
+
+    .cat {
+        margin-bottom: 28%;
+    }
 }
 
 @media screen and (max-width:1200px) {

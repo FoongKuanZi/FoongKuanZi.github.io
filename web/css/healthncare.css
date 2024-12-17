@@ -36,6 +36,10 @@ li {
     list-style: none;
 }
 
+.ui-state-active {
+    background-color: #f97b6f;
+}
+
 .cutepopout {
     margin-left: 3%;
     display: flex;
@@ -234,27 +238,5 @@ div.imagebox6-3 {
     .bigbigcontainer {
         flex-direction: column;
         padding-top: 13px;
-    }
-
-    .sections {
-        flex-direction: column;
-    }
-
-    .newslettercat {
-        display: none;
-    }
-
-    .container {
-        flex-direction: column;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .promote {
-        padding-top: 50px;
-    }
-
-    .cat {
-        padding-bottom: 110px;
     }
 }

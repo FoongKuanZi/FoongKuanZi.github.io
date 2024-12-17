@@ -7,6 +7,7 @@ li {
     list-style: none;
 }
 
+
 ul.ageclass {
     color: #6d1f34;
     display: flex;
@@ -36,6 +37,9 @@ li.subageclass:hover {
     padding-right: 40px;
 }
 
+.ui-state-active {
+    background-color: #f97b6f;
+}
 
 .cutepopout {
     margin-left: 3%;
@@ -224,9 +228,6 @@ div.imagebox6-3 {
     height: 250px;
     border-radius: 10px;
 }
-
-
-
 
 
 

@@ -214,11 +214,7 @@
         <h1>Read Next!</h1>
     </div>
 
-    <!--This is left paw-->
-    <!--<div class="leftpaw"><img src="img/leftbutton.png" alt="left paw" height="90"></div>-->
 
-    <!--This is right paw-->
-    <!--<div class="rightpaw"><img src="img/rightbutton.png" alt="right paw" height="90"></div>-->
 
     <div class="nextbigcontainer">
         <div class="readbox">
@@ -227,7 +223,7 @@
                     <h5>6 mins read</h5>
                 </div>
             </div>
-            <h3>Why does my cat put toys in my shoe?</h3>
+            <h3>Separation anxiety in cats</h3>
             <div class="general"><button class="general">Read More</button></div>
         </div>
 
@@ -237,7 +233,7 @@
                     <h5>5 mins read</h5>
                 </div>
             </div>
-            <h3>Why do cats paw at the water dish?</h3>
+            <h3>Cat's quitetest sound</h3>
             <div class="general"><button class="general">Read More</button></div>
         </div>
 
@@ -247,7 +243,7 @@
                     <h5>8 mins read</h5>
                 </div>
             </div>
-            <h3>Do cats have a favourite person?</h3>
+            <h3>How old is my cat?</h3>
             <div class="general"><button class="general">Read More</button></div>
         </div>
 
@@ -332,6 +328,34 @@
         </div>
     </div>
 
+    <footer>
+        <div class="roundborderfooter"></div>
+        <div class="container">
+            <div class="newsletter">
+                <div class="newslettercat"><img src="img/newsletter.png" alt="newsletter" height="150"></div>
+                <div class="content">
+                    <h2>Subscribe to our Newsletter!</h2>
+                    <p>Only the best of the best cat news there is on the web!<br>
+                        Tips, recommendations and information galore!</p>
+                    <div class="emailform"><input type="text" placeholder="Your email here!" class="emailbox">
+                        <div class="subscribe">SUBSCRIBE</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="promote">
+                <div><img src="img/purrfacts.png" alt="purrfacts" height="60"></div>
+                <div class="socmed">
+                    <img src="img/facebook.png" alt="facebook" height="50">
+                    <img src="img/instagram.png" alt="instagram" height="50">
+                    <img src="img/tiktok.png" alt="tiktok" height="50">
+                    <img src="img/youtube.png" alt="instagram" height="50">
+                    <img src="img/twitter.png" alt="tiktok" height="50">
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- Scripts below must be located by the end of /body -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -340,40 +364,37 @@
             $('.nextbigcontainer').slick({
                 infinite: true,
                 slidesToShow: 3,
-                slidesToScroll: 3
+                slidesToScroll: 3,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 1000,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
             });
         });
     </script>
-
 </body>
-
-<footer>
-    <div class="roundborderfooter"></div>
-    <div class="container">
-        <div class="newsletter">
-            <div class="newslettercat"><img src="img/newsletter.png" alt="newsletter" height="150"></div>
-            <div class="content">
-                <h2>Subscribe to our Newsletter!</h2>
-                <p>Only the best of the best cat news there is on the web!<br>
-                    Tips, recommendations and information galore!</p>
-                <div class="emailform"><input type="text" placeholder="Your email here!" class="emailbox">
-                    <div class="subscribe">SUBSCRIBE</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="promote">
-            <div><img src="img/purrfacts.png" alt="purrfacts" height="60"></div>
-            <div class="socmed">
-                <img src="img/facebook.png" alt="facebook" height="50">
-                <img src="img/instagram.png" alt="instagram" height="50">
-                <img src="img/tiktok.png" alt="tiktok" height="50">
-                <img src="img/youtube.png" alt="instagram" height="50">
-                <img src="img/twitter.png" alt="tiktok" height="50">
-            </div>
-        </div>
-    </div>
-</footer>
-
 
 </html>

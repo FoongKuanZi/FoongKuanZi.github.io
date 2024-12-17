@@ -40,7 +40,7 @@ h4 {
 
 .backgrounddeco {
     background-color: #ffaca4;
-    margin-bottom: 15%;
+    margin-bottom: 8%;
 }
 
 .roundborder {
@@ -141,22 +141,10 @@ h4 {
     display: flex;
 }
 
-.leftpaw {
-    position: absolute;
-    top: 2210px;
-    z-index: 1000;
-}
-
-.rightpaw {
-    position: absolute;
-    top: 2210px;
-    right: 0px;
-    z-index: 1000;
-}
 
 .readnext h1 {
     text-align: left;
-    margin-left: 3%;
+    margin-left: 5%;
     padding-top: 50px;
 }
 
@@ -165,7 +153,19 @@ h4 {
     background-color: #ffaca4;
     border-radius: 15px;
     padding: 30px;
-    flex: 1;
+    margin: 32px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #ffe186 !important;
+    background-color: #6d1f34;
+    font-size: 40px !important;
+    opacity: 100% !important;
+}
+
+.slick-current {
+    scale: 1.1;
 }
 
 .duration {
@@ -187,7 +187,7 @@ h4 {
 
 .read1 {
     position: relative;
-    background: url(../img/catputtoy.jpg);
+    background: url(../img/separationenxiety.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -196,7 +196,7 @@ h4 {
 
 .read2 {
     position: relative;
-    background: url(../img/catpawwater.jpg);
+    background: url(../img/catquite.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -205,7 +205,7 @@ h4 {
 
 .read3 {
     position: relative;
-    background: url(../img/catfavperson.jpg);
+    background: url(../img/cathowold.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -282,4 +282,9 @@ h4 {
     .cutepopout {
         display: none;
     }
+
+    .backgrounddeco {
+        margin-bottom: 20%;
+    }
+
 }
