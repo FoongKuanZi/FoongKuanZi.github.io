@@ -249,13 +249,14 @@ footer {
 }
 
 .container {
+    display: flex;
     padding: 20px;
     padding-left: 80px;
     padding-right: 80px;
     background-color: #f97b6f;
-    display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .content {
@@ -409,9 +410,6 @@ footer {
         flex-direction: column;
     }
 
-    .newslettercat {
-        display: none
-    }
 
     .content {
         align-items: center;
@@ -427,10 +425,13 @@ footer {
     }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
+    .newslettercat {
+        display: none
+    }
+
     .newsletter {
-        text-align: center;
-        margin: auto;
+        flex-direction: column;
         margin-bottom: 5%;
     }
 }
