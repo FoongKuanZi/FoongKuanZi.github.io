@@ -5,7 +5,7 @@
     height: 610px;
 }
 
-.roundborderfooter {
+.roundborderfooter1 {
     background: url(../img/roundshapetrans.png);
     position: relative;
     background-size: contain;
@@ -45,10 +45,6 @@
     flex: 2;
 }
 
-.direction {
-    display: flex;
-    padding: 32px;
-}
 
 .info {
     margin: 5%;

@@ -236,27 +236,5 @@ div.imagebox6-3 {
         padding-top: 13px;
     }
 
-    .sections {
-        flex-direction: column;
-    }
-
-    .newslettercat {
-        display: none;
-    }
-
-    .container {
-        flex-direction: column;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .promote {
-        padding-top: 50px;
-    }
-
-    .cat {
-        padding-bottom: 110px;
-    }
-
 
 }
