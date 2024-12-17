@@ -71,19 +71,6 @@
 
 /* mobile view */
 @media screen and (max-width:800px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .promote {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .newslettercat {
-        display: none;
-    }
 
     .info {
         text-align: center;
@@ -121,4 +108,12 @@
     p {
         font-size: 15px;
     }
+
+    .roundborderfooter {
+        background: url(../img/roundshapetrans.png);
+        position: relative;
+        background-size: contain;
+        height: 60px;
+    }
+
 }
