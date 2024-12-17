@@ -5,6 +5,13 @@
     height: 610px;
 }
 
+.roundborderfooter {
+    background: url(../img/roundshapetrans.png);
+    position: relative;
+    background-size: contain;
+    height: 60px;
+}
+
 .centered {
     z-index: 1;
     position: absolute;
@@ -59,6 +66,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
 }
 
 /* mobile view */
