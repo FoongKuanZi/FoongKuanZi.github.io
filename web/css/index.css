@@ -62,7 +62,31 @@
     flex: 1;
 }
 
-.img {
+.homeicon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.img1 {
+    background-image: url(../img/catgroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.img2 {
+    background-image: url(../img/catnpill.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
