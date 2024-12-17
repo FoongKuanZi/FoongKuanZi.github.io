@@ -212,10 +212,9 @@ button.general:hover {
 .sections {
     display: flex;
     align-items: center;
-    justify-content: center;
-    column-gap: 20%;
-    padding-right: 50px;
-    padding-left: 50px;
+    justify-content: space-between;
+    padding-right: 15%;
+    padding-left: 15%;
     padding-bottom: 150px;
 }
 
@@ -414,13 +413,6 @@ footer {
         display: none
     }
 
-    .newsletter {
-        text-align: center;
-        width: 50%;
-        margin: auto;
-        margin-bottom: 5%;
-    }
-
     .content {
         align-items: center;
     }
@@ -432,5 +424,13 @@ footer {
 
     .checkheadtxt h1 {
         font-size: 35px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .newsletter {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 5%;
     }
 }
