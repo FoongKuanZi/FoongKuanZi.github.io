@@ -1,6 +1,7 @@
 .background {
     background-image: url(../img/purrfactscats.png);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 561px;
     position: relative;
@@ -44,6 +45,13 @@ body {
     z-index: 1;
 }
 
+.roundborderfooter1 {
+    background: url(../img/roundshapetrans.png);
+    position: relative;
+    background-size: contain;
+    height: 60px;
+    z-index: 3;
+}
 
 @font-face {
     font-family: tangerine;
@@ -107,8 +115,6 @@ button {
 }
 
 /* RESPONSIVE */
-
-
 @media screen and (max-width: 600px) {
 
     form {

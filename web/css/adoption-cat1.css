@@ -1,0 +1,32 @@
+.profile {
+    display: flex;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: #6d1f34 solid 2px;
+    border-radius: 15px;
+}
+
+.image {
+    position: relative;
+    background: url(../img/obi.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    min-width: 500px;
+    border-radius: 15px;
+}
+
+.age {
+    text-align: center;
+    font-size: small;
+    background-color: #f97b6f;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
