@@ -115,8 +115,11 @@ button {
 @media screen and (max-width: 600px) {
 
     form {
+        display: flex;
+        margin: 10px;
         align-items: center;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .background {
@@ -139,6 +142,7 @@ button {
     }
 
     button {
+        align-items: center;
         margin-left: 35%;
         margin-top: 50px;
     }
