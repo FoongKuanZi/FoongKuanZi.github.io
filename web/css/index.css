@@ -139,6 +139,7 @@
         display: block;
         z-index: 1;
         text-align: center;
+        align-items: center;
     }
 
     .roundborderfooter {
