@@ -1,32 +1,110 @@
-.profile {
-    display: flex;
+.info {
     text-align: left;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    border: #6d1f34 solid 2px;
-    border-radius: 15px;
+    padding: 5px;
 }
 
-.image {
+.profile {
+    margin: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: #6d1f34 solid 2px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.catimg {
     position: relative;
-    background: url(../img/obi.jpg);
-    background-size: cover;
+    background-image: url(../img/obi.jpg);
+    border-radius: 20px;
     background-position: center;
-    min-height: 400px;
-    min-width: 500px;
-    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 90%;
+    flex: 1;
+}
+
+.details {
+    flex: 2;
+    padding: 0%;
+    padding-left: 50px;
+}
+
+.stats {
+    border: solid #ffaca4 1px;
+    background-color: #ffaca4;
+    border-radius: 20px;
 }
 
 .age {
+    display: block;
     text-align: center;
     font-size: small;
-    background-color: #f97b6f;
+    background-color: #ffaca4;
     position: absolute;
-    top: 5px;
-    left: 20px;
-    border-radius: 50px;
+    top: -20px;
+    left: -25px;
+    border-radius: 20px;
     padding: 5px;
     padding-left: 30px;
     padding-right: 30px;
+}
 
+.pics {
+    margin-top: 10%;
+    background-color: #ffaca4;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: left;
+    margin: 0%;
+}
+
+h2 {
+    margin: 0%;
+}
+
+h3 {
+    margin: 0px;
+}
+
+h4 {
+    text-align: left;
+    margin: 3%;
+}
+
+p {
+    margin: 3%;
+}
+
+.paw {
+    vertical-align: middle;
+    width: 25px;
+    padding: 5px;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+}
+
+#obi1 {
+    background-image: url(../img/obi1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.obi1 {
+    background-image: url(../img/obi1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50%;
 }
