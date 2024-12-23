@@ -2,10 +2,8 @@
     background-image: url(../img/purrfactscats.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     height: 561px;
-    position: relative;
-    top: 101px;
     z-index: 1;
 }
 
@@ -50,7 +48,6 @@ body {
     position: relative;
     background-size: contain;
     height: 60px;
-    z-index: 3;
 }
 
 @font-face {
