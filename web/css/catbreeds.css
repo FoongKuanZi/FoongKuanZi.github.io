@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
+    min-height: 300px;
 }
 
 .direction {
@@ -25,11 +26,11 @@
     margin-left: 2%;
     margin-right: 2%;
     align-self: center;
+    justify-content: center;
 }
 
 .titlepic {
     border-radius: 20px;
-    width: 90%;
     align-self: center;
 }
 
@@ -37,17 +38,19 @@
     display: flex;
     flex-direction: column;
     position: absolute;
+    top: 30%;
     left: 0;
     right: 0;
     text-align: center;
 }
 
-.titletextcolour {
+.titletextsettings {
     color: #FFEFD4;
+    margin-bottom: 5px;
 }
 
 .bigarticleblock {
-    margin-top: 50px;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -56,7 +59,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 2%;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 .indiarticle {
@@ -77,6 +80,7 @@
     height: 400px;
     text-align: center;
     margin: 5%;
+    justify-content: center;
 }
 
 .scottishstraight {
@@ -106,8 +110,6 @@
 .articletext {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-bottom: 30px;
 }
 
@@ -115,4 +117,15 @@
     color: #ffe186;
     text-shadow: 2px 2px 10px black;
     margin-bottom: 5px;
+}
+
+@media screen and (max-width:1000px) {
+    .articles {
+        flex-direction: column;
+        margin-bottom: 0%;
+    }
+
+    .indiarticle {
+        margin-bottom: 5%;
+    }
 }
