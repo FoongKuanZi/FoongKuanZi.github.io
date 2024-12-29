@@ -59,7 +59,7 @@ h4 {
 
 .artimage {
     position: relative;
-    background: url(../img/catbond.jpg);
+    background: url(../img/catquite.jpg);
     background-size: cover;
     background-position: center;
     min-height: 400px;
@@ -196,7 +196,7 @@ h4 {
 
 .read2 {
     position: relative;
-    background: url(../img/catquite.jpg);
+    background: url(../img/catbite.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -232,7 +232,7 @@ h4 {
 
 .read6 {
     position: relative;
-    background: url(../img/catknead.jpg);
+    background: url(../img/catbond.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
