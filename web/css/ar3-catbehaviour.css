@@ -1,0 +1,290 @@
+header {
+    z-index: 10000;
+}
+
+.intro h1 {
+    text-align: left;
+    margin: 0%;
+}
+
+p {
+    margin-bottom: 2%;
+    margin-left: 0%;
+}
+
+h2 {
+    margin-top: 1%;
+}
+
+h4 {
+    margin: 1%;
+}
+
+.review {
+    text-align: center;
+    font-size: small;
+    background-color: #ffefd4;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.review p {
+    margin: 0%;
+}
+
+.backgrounddeco {
+    background-color: #ffaca4;
+    margin-bottom: 8%;
+}
+
+.roundborder {
+    position: relative;
+    top: 50px;
+    background: url(../img/roundshapeborder.png);
+    background-size: contain;
+    height: 100px;
+
+}
+
+.art1 {
+    margin: 3%;
+    display: flex;
+}
+
+.artimage {
+    position: relative;
+    background: url(../img/catknead.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    min-width: 500px;
+    border-radius: 15px;
+}
+
+.intro {
+    padding-left: 30px;
+}
+
+.credit {
+    margin: auto;
+    color: #6d1f34;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 70px;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.credit p {
+    margin: 0%;
+}
+
+.abox {
+    display: flex;
+    position: relative;
+}
+
+.cutepopout {
+    position: absolute;
+    right: 55px;
+    top: 35px;
+    display: flex;
+    padding: 10px;
+    gap: 11px;
+    align-items: center;
+}
+
+.box {
+    box-shadow: #f97b6f 7px 7px;
+    background-color: #ffaca4;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 2%;
+}
+
+
+.content1 {
+    color: #6d1f34;
+}
+
+.content2 {
+    color: #6d1f34;
+    max-width: 800px;
+}
+
+.bigbigcontainer {
+    display: flex;
+    gap: 30px;
+}
+
+.verybigcontainer {
+    margin: 3%;
+}
+
+.nextbigcontainer {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 3%;
+    margin-top: 0%;
+}
+
+.slide {
+    display: flex;
+}
+
+
+.readnext h1 {
+    text-align: left;
+    margin-left: 5%;
+    padding-top: 50px;
+}
+
+.readbox {
+    box-shadow: #f97b6f 7px 7px;
+    background-color: #ffaca4;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 32px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #ffe186 !important;
+    background-color: #6d1f34;
+    font-size: 40px !important;
+    opacity: 100% !important;
+}
+
+.slick-current {
+    scale: 1.1;
+}
+
+.duration {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #fdefd5;
+    background-color: #6d1f34;
+    border-radius: 45px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.duration h5 {
+    margin: 0%;
+    font-weight: 100;
+}
+
+.read1 {
+    position: relative;
+    background: url(../img/separationenxiety.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.read2 {
+    position: relative;
+    background: url(../img/catquite.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.read3 {
+    position: relative;
+    background: url(../img/cathowold.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.read4 {
+    position: relative;
+    background: url(../img/catgroom.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.read5 {
+    position: relative;
+    background: url(../img/catfight.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.read6 {
+    position: relative;
+    background: url(../img/catbond.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+
+@media screen and (max-width:900px) {
+
+    .bigbigcontainer {
+        flex-direction: column;
+        padding-top: 13px;
+    }
+
+    .sections {
+        flex-direction: column;
+    }
+
+    .art1 {
+        flex-direction: column;
+    }
+
+
+    .newslettercat {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .promote {
+        padding-top: 50px;
+    }
+
+    .cat {
+        padding-bottom: 110px;
+    }
+
+    .intro {
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+
+    .cutepopout {
+        display: none;
+    }
+
+    .backgrounddeco {
+        margin-bottom: 20%;
+    }
+
+}
