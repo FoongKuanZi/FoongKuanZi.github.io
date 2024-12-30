@@ -321,6 +321,18 @@ footer {
     z-index: 10000;
 }
 
+/* This is read next slider */
+.slick-prev:before,
+.slick-next:before {
+    color: #6d1f34 !important;
+    font-size: 40px !important;
+    opacity: 100% !important;
+}
+
+.slick-current {
+    scale: 1.1;
+}
+
 
 /* This is the media-responsive section.*/
 @media screen and (max-width:800px) {

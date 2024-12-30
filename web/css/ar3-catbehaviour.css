@@ -156,18 +156,6 @@ h4 {
     margin: 32px;
 }
 
-.slick-prev:before,
-.slick-next:before {
-    color: #ffe186 !important;
-    background-color: #6d1f34;
-    font-size: 40px !important;
-    opacity: 100% !important;
-}
-
-.slick-current {
-    scale: 1.1;
-}
-
 .duration {
     position: absolute;
     right: 10px;
