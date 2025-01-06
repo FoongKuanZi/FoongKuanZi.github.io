@@ -95,28 +95,28 @@
     justify-content: center;
 }
 
-.scottishstraight {
-    background-image: url(../img/scottishstraightlonghair.jpg);
+.piebaldtuxedo {
+    background-image: url(../img/piebaldtuxedo.png);
 }
 
-.siamese {
-    background-image: url(../img/siamesecat.jpg);
+.tortietomcats {
+    background-image: url(../img/tortietomcats.png);
 }
 
-.jpbobtail {
-    background-image: url(../img/jpbobtaillonghair.jpg);
+.coattemperament {
+    background-image: url(../img/coattemperament.png);
 }
 
-.scotfold {
-    background-image: url(../img/scottishfold.jpg);
+.chimerism {
+    background-image: url(../img/chimerism.png);
 }
 
-.blksphynx {
-    background-image: url(../img/blacksphynx.png);
+.domblueeye {
+    background-image: url(../img/domblueeye.png);
 }
 
-.turkvan {
-    background-image: url(../img/turkishvan.jpg);
+.tabbytaqpep {
+    background-image: url(../img/tabbytaqpep.png);
 }
 
 .articletext {
@@ -159,7 +159,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         margin-top: -2%;
+        margin-bottom: -3%;
     }
 
     .bigarticleblock {
