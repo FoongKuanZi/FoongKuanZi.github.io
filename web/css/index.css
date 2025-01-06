@@ -1,8 +1,9 @@
 .banner {
-    background-image: url(../img/banner.png);
+    background-image: url(../img/purrfactscats.png);
+    background-color: #ffaca4;
     background-size: cover;
     background-position: center;
-    height: 610px;
+    min-height: 610px;
 }
 
 .roundborderfooter1 {
@@ -14,11 +15,12 @@
 
 .centered {
     z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
 }
 
 .para {
@@ -73,7 +75,7 @@
     background-image: url(../img/catgroom.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     display: block;
     margin-left: auto;
@@ -85,7 +87,7 @@
     background-image: url(../img/catnpill.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     display: block;
     margin-left: auto;
@@ -113,21 +115,19 @@
 
     .banner {
         background-color: #ffaca4;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom;
-        height: 350px;
+        min-height: 300px;
     }
 
     .centered {
-        margin-top: 15px;
-        position: absolute;
-        top: 25%;
-        left: 50%;
+        justify-content: center;
+        align-items: center;
+
     }
 
     h1 {
-        justify-content: space-between;
         font-size: 40px;
     }
 
