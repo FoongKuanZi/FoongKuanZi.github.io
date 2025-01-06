@@ -16,7 +16,7 @@
 
 .catimg {
     position: relative;
-    background: url(../img/obi.jpg);
+    background: url(../img/blackball.jpg);
     background-size: cover;
     background-position: center;
     min-height: 400px;
@@ -129,7 +129,7 @@ p {
 
 .read1 {
     position: relative;
-    background: url(../img/cherry.jpg);
+    background: url(../img/obi.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -139,7 +139,7 @@ p {
 
 .read2 {
     position: relative;
-    background: url(../img/willow.jpg);
+    background: url(../img/cherry.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -149,7 +149,7 @@ p {
 
 .read3 {
     position: relative;
-    background: url(../img/cornbread.jpg);
+    background: url(../img/willow.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -159,7 +159,7 @@ p {
 
 .read4 {
     position: relative;
-    background: url(../img/blackball.jpg);
+    background: url(../img/cornbread.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
