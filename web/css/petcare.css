@@ -1,0 +1,258 @@
+.bigbody {
+    background-color: #FFACA4;
+    background-size: cover;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+.roundborder {
+    position: relative;
+    background: url(../img/roundshape1.png);
+    background-size: contain;
+    height: 60px;
+    z-index: -100;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEBDB0;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: -2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+    box-shadow: 5px 5px #F97B6F;
+    border-radius: 20px;
+    column-gap: 5%;
+}
+
+.titlepic {
+    align-self: center;
+    height: 30vh;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 1px;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+
+.titletext {
+    align-items: left;
+    width: 50%;
+    margin-bottom: 40px;
+    margin-right: 5%;
+}
+
+h1.bigtext {
+    text-align: left;
+    padding-left: 3px;
+    margin-bottom: 5px;
+}
+
+.smalltitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    column-gap: 3%;
+    align-items: center;
+}
+
+.mainsec1 {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #ffe5cd;
+    border-radius: 20px;
+    border: 1px solid #6D1F34;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodypic {
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    width: 90%;
+}
+
+.bodymaintext {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paw {
+    padding-top: 26px;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.bodytext {
+    width: 30vw;
+    margin-bottom: 30px;
+}
+
+.mainsec2 {
+    background-color: #FFACA4;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rec {
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+.recblock {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.rectext {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline;
+    background-color: #FFEFD4;
+    border-radius: 20px;
+}
+
+.rectitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.recarc {
+    display: flex;
+    justify-content: center;
+    column-gap: 8%;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.recpic {
+    width: 90%;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+button.general {
+    margin-bottom: 40px;
+}
+
+h1.midtext {
+    text-align: left;
+    margin-top: 5%;
+    padding-left: 3px;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width:1000px) {
+    .title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titlepic {
+        height: auto;
+        width: 50vw;
+        border-radius: 20px;
+        align-self: center;
+        padding-top: 0;
+        margin-bottom: 8px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .titletext {
+        width: 80%;
+        margin: 10%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    h1.bigtext {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    h1.midtext {
+        font-size: 40px;
+    }
+
+    .smalltitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0px;
+    }
+
+    .mainsec1 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .bodypic {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        align-self: center;
+    }
+
+    .bodymaintext {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -10px;
+    }
+
+    .textcombo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paw {
+        display: none;
+    }
+
+    .bodytext {
+        text-align: center;
+        width: 60vw
+    }
+
+    .recarc {
+        display: block;
+        align-items: center;
+    }
+
+    .recpic {
+        height: auto;
+        width: 50vw;
+        align-self: center;
+    }
+
+    .recblock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rectext {
+        text-align: center;
+    }
+}

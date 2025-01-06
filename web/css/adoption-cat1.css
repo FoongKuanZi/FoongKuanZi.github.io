@@ -16,14 +16,12 @@
 
 .catimg {
     position: relative;
-    background-image: url(../img/obi.jpg);
-    border-radius: 20px;
-    background-position: center;
+    background: url(../img/obi.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 90%;
-    flex: 1;
+    background-position: center;
+    min-height: 400px;
+    min-width: 300px;
+    border-radius: 15px;
 }
 
 .details {
@@ -98,25 +96,85 @@ p {
     align-items: center;
 }
 
-.obi1 {
+.img1 {
     max-width: 100%;
-    height: 250px;
+    max-height: 250px;
     border-radius: 10px;
     margin: 10px;
 }
 
-.obi2 {
-    max-width: 100%;
-    height: 250px;
-    border-radius: 10px;
-    margin: 10px;
+.readnext h2 {
+    text-align: left;
+    margin-left: 3%;
+    padding-top: 50px;
 }
 
-.obi3 {
-    max-width: 100%;
-    height: 250px;
-    border-radius: 10px;
-    margin: 10px;
+.readbox {
+    box-shadow: #f97b6f 7px 7px;
+    background-color: #ffaca4;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 32px;
+}
+
+.nextbigcontainer {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 3%;
+    margin-top: 0%;
+    text-align: center;
+    align-items: center;
+}
+
+.read1 {
+    position: relative;
+    background: url(../img/cherry.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+    margin-bottom: 10px;
+}
+
+.read2 {
+    position: relative;
+    background: url(../img/willow.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+    margin-bottom: 10px;
+}
+
+.read3 {
+    position: relative;
+    background: url(../img/cornbread.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+    margin-bottom: 10px;
+}
+
+.read4 {
+    position: relative;
+    background: url(../img/blackball.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+    margin-bottom: 10px;
+}
+
+.read5 {
+    position: relative;
+    background: url(../img/cookie.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    min-height: 300px;
+    margin-bottom: 10px;
 }
 
 /* lightbox css */
@@ -315,4 +373,33 @@ body.lb-disable-scrolling {
 .lb-data .lb-close:hover {
     cursor: pointer;
     opacity: 1;
+}
+
+/* mobile view */
+
+
+/* mobile view */
+
+@media screen and (max-width:600px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .profile {
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .catimg {
+        min-height: 250px;
+        min-width: 150px;
+    }
+
+    .details {
+        padding-left: 0px;
+    }
+
+    .picssect {
+        flex-direction: column;
+    }
 }

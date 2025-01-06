@@ -1,12 +1,3 @@
-.background {
-    background-image: url(../img/purrfactscats.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 561px;
-    z-index: 1;
-}
-
 .parent {
     display: flex;
     justify-content: center;
@@ -19,6 +10,7 @@ header {
 }
 
 body {
+    z-index: 100;
     font-family: "tangerine";
     background-color: #ffefd4;
     margin: 0%;
@@ -32,6 +24,10 @@ body {
     margin-top: 0px;
     padding: 20px;
     position: absolute;
+}
+
+button {
+    margin-bottom: 30px;
 }
 
 .roundborder {
@@ -50,29 +46,20 @@ body {
     height: 60px;
 }
 
-@font-face {
-    font-family: tangerine;
-    src: url(font/tangerine.ttf)
-}
-
-h1 {
-    font-family: "tangerine";
-    margin-bottom: 1%;
-    color: #6d1f34;
-    font-size: 50px;
-}
-
 /* CONTACT FORM */
 
 form {
-    position: absolute;
     color: #6d1f34;
-    top: 40%;
-    left: 25%;
-    z-index: 3;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
     padding: 20px;
+    background-image: url(../img/purrfactscats.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 600px;
 }
 
 label {
@@ -120,13 +107,10 @@ button {
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
-    }
-
-    .background {
         background-size: 600px;
         background-repeat: no-repeat;
         background-position: bottom;
-        margin: 0px;
+        margin-top: 50px;
     }
 
     .centered {
@@ -143,8 +127,7 @@ button {
 
     button {
         align-items: center;
-        margin-left: 35%;
-        margin-top: 50px;
+        display: flex;
     }
 
     .query {
