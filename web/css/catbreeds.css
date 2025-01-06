@@ -30,8 +30,14 @@
 }
 
 .titlepic {
+    background-image: url(../img/catbreedsbig.png);
+}
+
+.imagesettings {
     border-radius: 20px;
-    align-self: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .titletext {
@@ -53,9 +59,6 @@
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.articles {
     display: flex;
     justify-content: space-between;
     column-gap: 2%;
@@ -73,10 +76,6 @@
 .articleimage {
     display: flex;
     align-items: flex-end;
-    border-radius: 20px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 400px;
     text-align: center;
     margin: 5%;
@@ -120,8 +119,8 @@
 }
 
 @media screen and (max-width:1000px) {
-    .articles {
-        flex-direction: column;
+    .bigarticleblock {
+        display: block;
         margin-bottom: 0%;
     }
 
