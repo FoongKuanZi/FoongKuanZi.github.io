@@ -16,7 +16,7 @@
 
 .catimg {
     position: relative;
-    background: url(../img/obi.jpg);
+    background: url(../img/cherry.jpg);
     background-size: cover;
     background-position: center;
     min-height: 400px;
@@ -129,7 +129,7 @@ p {
 
 .read1 {
     position: relative;
-    background: url(../img/cherry.jpg);
+    background: url(../img/obi.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
