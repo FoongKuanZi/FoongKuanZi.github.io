@@ -64,6 +64,7 @@ h4 {
     background-position: center;
     min-height: 400px;
     min-width: 500px;
+
     border-radius: 15px;
 }
 
@@ -275,4 +276,7 @@ h4 {
         margin-bottom: 20%;
     }
 
+    .artimage {
+        min-width: 150px;
+    }
 }
