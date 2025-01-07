@@ -362,12 +362,13 @@ footer {
         position: fixed;
         top: 0;
         right: 0;
-        width: 50%;
+        width: 60%;
         height: 70%;
         background-color: #F97B6F;
         justify-content: center;
+        align-items: center;
         z-index: 1000;
-        gap: 5%;
+        gap: 3%;
         padding-top: 8%;
     }
 
@@ -414,7 +415,6 @@ footer {
         flex-direction: column;
         align-items: center;
         position: static;
-        margin-bottom: 10px;
     }
 
     .drop:hover .submenu {
