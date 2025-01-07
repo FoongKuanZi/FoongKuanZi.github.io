@@ -272,4 +272,8 @@ h4 {
     .cutepopout {
         display: none;
     }
+
+    .artimage {
+        min-width: 150px;
+    }
 }

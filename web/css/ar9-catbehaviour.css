@@ -275,4 +275,7 @@ h4 {
         margin-bottom: 20%;
     }
 
+    .artimage {
+        min-width: 150px;
+    }
 }
