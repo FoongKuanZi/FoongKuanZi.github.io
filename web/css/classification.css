@@ -164,6 +164,8 @@ h1.midtext {
     .title {
         flex-direction: column;
         align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .titlepic {
@@ -203,6 +205,8 @@ h1.midtext {
     .mainsec1 {
         margin-top: 10%;
         margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .bodypic {

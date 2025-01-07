@@ -363,7 +363,7 @@ footer {
         top: 0;
         right: 0;
         width: 50%;
-        height: 50%;
+        height: 70%;
         background-color: #F97B6F;
         justify-content: center;
         z-index: 1000;
@@ -386,7 +386,6 @@ footer {
         font-size: 120%;
         color: #ffffff;
     }
-
 
     .drop {
         display: flex;
@@ -428,6 +427,11 @@ footer {
 
     .hover:hover {
         background-color: rgba(250, 227, 225, 0);
+    }
+
+    .direction {
+        padding-left: 4%;
+        padding-right: 4%;
     }
 
     /* For the bottom section of the page. */
