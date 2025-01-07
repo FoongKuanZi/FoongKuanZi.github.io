@@ -139,7 +139,8 @@ p {
 body {
     font-family: "tangerine";
     background-color: #ffefd4;
-    margin: 0%;
+    margin: auto;
+    max-width: 1280px;
 }
 
 
@@ -353,7 +354,7 @@ footer {
 
 
 /* This is the media-responsive section.*/
-@media screen and (min-width:320px) and (max-width:758px) {
+@media screen and (min-width:320px) and (max-width: 1024px) {
 
     /*Mobile Header*/
     .navright {
