@@ -347,6 +347,15 @@ footer {
     opacity: 100% !important;
 }
 
+button.slick-prev.slick-arrow {
+    z-index: 100;
+    left: -20px;
+}
+
+button.slick-next.slick-arrow {
+    right: -7px;
+}
+
 .slick-current {
     scale: 1.1;
 }
