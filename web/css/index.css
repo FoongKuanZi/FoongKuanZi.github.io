@@ -17,11 +17,19 @@
     z-index: 1;
     text-align: center;
     margin: 0px;
-    padding: 50px;
+    padding: 90px;
 }
 
 h1 {
     margin: 0px;
+}
+
+.p1 p {
+    margin-bottom: 0%;
+}
+
+.para p {
+    margin-bottom: 0%;
 }
 
 .para {
@@ -40,7 +48,7 @@ h1 {
     border-radius: 20px;
     align-items: center;
     background-color: #f97b6f;
-    padding: 5px;
+    padding: 17px;
     flex: 1;
 }
 
@@ -137,6 +145,8 @@ h1 {
     }
 
     .para {
+        margin-top: 10%;
+        margin-bottom: 10%;
         display: block;
         z-index: 1;
         text-align: center;
