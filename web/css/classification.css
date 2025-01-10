@@ -137,13 +137,14 @@ h1.bigtext {
     display: flex;
     justify-content: center;
     column-gap: 8%;
-    align-items: center;
+    align-items: top;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 20px;
 }
 
 .recpic {
+    max-height: 200px;
     width: 100%;
     border-radius: 20px;
 }
@@ -177,7 +178,7 @@ h1.midtext {
     }
 
     .titletext {
-        width: 80%;
+        width: 85%;
         margin: 10%;
         margin-top: 10px;
         text-align: center;
@@ -185,6 +186,7 @@ h1.midtext {
 
     h1.bigtext {
         margin-top: 10px;
+        font-size: 230%;
         text-align: center;
     }
 
@@ -207,9 +209,8 @@ h1.midtext {
     }
 
     .bodypic {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        min-height: 150px;
+        min-width: 80%;
         align-self: center;
     }
 
@@ -241,8 +242,8 @@ h1.midtext {
     }
 
     .recpic {
-        height: auto;
-        width: 50vw;
+        min-height: 50px;
+        width: 70%;
         align-self: center;
     }
 
@@ -253,6 +254,10 @@ h1.midtext {
     }
 
     .rectext {
+        text-align: center;
+    }
+
+    .rectitle {
         text-align: center;
     }
 }
@@ -301,8 +306,8 @@ h1.midtext {
     }
 
     .recpic {
-        height: auto;
-        width: 50vw;
+        min-height: 250px;
+        width: 70%;
         align-self: center;
     }
 
