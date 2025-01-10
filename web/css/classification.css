@@ -29,14 +29,13 @@
 }
 
 .titlepic {
-    align-self: center;
-    height: 30vh;
-    width: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 1px;
-    margin-left: 5%;
+    background-image: url(../img/classificationimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 20px;
+    min-height: 230px;
+    width: 50%;
 }
 
 .titletext {
@@ -49,7 +48,6 @@
 h1.bigtext {
     text-align: left;
     padding-left: 3px;
-    margin-bottom: 5px;
 }
 
 .smalltitle {
@@ -80,6 +78,8 @@ h1.bigtext {
     margin-left: 5%;
     margin-bottom: 7%;
     width: 90%;
+    min-height: 100%;
+    min-width: 300px;
 }
 
 .bodymaintext {
@@ -94,7 +94,6 @@ h1.bigtext {
 }
 
 .bodytext {
-    width: 30vw;
     margin-bottom: 30px;
 }
 
@@ -160,7 +159,7 @@ h1.midtext {
     margin-bottom: 2%;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (min-width:320px) and (max-width:758px) {
     .title {
         flex-direction: column;
         align-items: center;
@@ -169,14 +168,12 @@ h1.midtext {
     }
 
     .titlepic {
-        height: auto;
-        width: 50vw;
+        width: 80%;
         border-radius: 20px;
         align-self: center;
-        padding-top: 0;
+        margin-top: 10%;
         margin-bottom: 8px;
-        margin-left: 2%;
-        margin-right: 2%;
+
     }
 
     .titletext {
@@ -257,5 +254,76 @@ h1.midtext {
 
     .rectext {
         text-align: center;
+    }
+}
+
+/* This is for Ipad View! */
+@media screen and (min-width:758px) and (max-width: 1023px) {
+    .mainsec1 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .bodypic {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        align-self: center;
+    }
+
+    .bodymaintext {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -10px;
+    }
+
+    .textcombo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paw {
+        display: none;
+    }
+
+    .bodytext {
+        text-align: center;
+        width: 60vw
+    }
+
+    .recarc {
+        display: block;
+        align-items: center;
+    }
+
+    .recpic {
+        height: auto;
+        width: 50vw;
+        align-self: center;
+    }
+
+    .recblock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rectext {
+        text-align: center;
+    }
+
+    h1.midtext {
+        font-size: 40px;
+    }
+
+    .smalltitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0px;
     }
 }
