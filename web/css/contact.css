@@ -9,18 +9,11 @@ header {
     margin-bottom: 0%;
 }
 
-body {
-    z-index: 100;
-    font-family: "tangerine";
-    background-color: #ffefd4;
-    margin: 0%;
-}
-
 .centered {
     z-index: 2;
     text-align: center;
     background-color: #ffaca4;
-    width: 97%;
+    width: 83%;
     margin-top: 0px;
     padding: 20px;
     position: absolute;
@@ -54,7 +47,7 @@ form {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    padding: 20px;
+    padding: 50px;
     background-image: url(../img/purrfactscats.png);
     background-size: cover;
     background-repeat: no-repeat;

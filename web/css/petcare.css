@@ -5,13 +5,6 @@
     padding-bottom: 80px;
 }
 
-.roundborder {
-    position: relative;
-    background: url(../img/roundshape1.png);
-    background-size: contain;
-    height: 60px;
-    z-index: -100;
-}
 
 .title {
     display: flex;
@@ -69,10 +62,6 @@ h1.bigtext {
     background-color: #ffe5cd;
     border-radius: 20px;
     border: 1px solid #6D1F34;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
 
 .bodypic {
@@ -161,10 +150,91 @@ h1.midtext {
     margin-bottom: 2%;
 }
 
+.img1 {
+    background-image: url(../img/care.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    width: 100%;
+}
+
+.img2 {
+    background-image: url(../img/behaviourred.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+    width: 100%;
+}
+
+.img3 {
+    background-image: url(../img/health.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+    width: 100%;
+}
+
+.arimg1 {
+    background-image: url(../img/catgroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.arimg2 {
+    background-image: url(../img/catfight.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.arimg3 {
+    background-image: url(../img/catnpill.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.arimg4 {
+    background-image: url(../img/catfleas.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
 @media screen and (max-width:1000px) {
     .title {
         flex-direction: column;
         align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .titlepic {
@@ -202,8 +272,8 @@ h1.midtext {
     }
 
     .mainsec1 {
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .bodypic {
