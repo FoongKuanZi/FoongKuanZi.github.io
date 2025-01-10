@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 0;
     right: 0;
     text-align: center;
@@ -76,6 +76,10 @@
     box-shadow: 5px 5px #F97B6F;
     border-radius: 20px;
     margin-bottom: 3%;
+}
+
+.ipadblk {
+    display: none;
 }
 
 .phoneblk {
@@ -144,6 +148,10 @@
         margin-bottom: 5%;
     }
 
+    .ipadblk {
+        display: none;
+    }
+
     .phonetggl {
         display: flex;
         flex-direction: column;
@@ -195,5 +203,27 @@
     .articlename {
         color: #6d1f34;
         text-shadow: none;
+    }
+}
+
+/* This is for Ipad View! */
+@media screen and (min-width:758px) and (max-width: 1023px) {
+    .desktopblk {
+        display: none;
+    }
+
+    .ipadblk {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phonetggl {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
 }
